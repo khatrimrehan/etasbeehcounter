@@ -24,7 +24,9 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #121212;
-    overflow: hidden;
+    overflow-y: auto;
+    overscroll-behavior-y: auto;
+    padding-bottom: 1px;
 }
 
 nav {
