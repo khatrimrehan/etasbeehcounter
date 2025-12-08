@@ -13,7 +13,6 @@
   font-weight: 400;
 }
 
-/* Page setup: exactly one screen, no scroll */
 html,
 body {
   height: 100%;
@@ -24,14 +23,12 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #121212;
-  overflow: hidden;         /* no page scroll at all */
+  overflow: hidden;        
 }
 
-/* NAVBAR */
 nav {
   width: 100%;
   background-color: transparent;
-  flex-shrink: 0;           /* don't let nav shrink */
 }
 
 .navbar {
@@ -93,19 +90,17 @@ nav {
   color: #fff;
 }
 
-/* MAIN CONTENT: fills space between nav and footer */
 .content {
-    height: 95vh;
-  flex: 1;                           /* take all remaining height */
+     height: 95vh;
   width: 98%;
   margin: 0 auto;
   background-color: transparent;
-  min-height: 0;                     /* important to avoid pushing footer */
-  overflow: hidden;                  /* no inner scroll */
+  min-height: 0;                     
+  overflow: hidden;                  
   border-bottom: 1px solid #ffffff40;
 }
 
-/* Example layout inside content (can customize later) */
+
 .main1 {
   height: 100%;
   width: 70%;
