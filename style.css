@@ -26,7 +26,6 @@ body {
     background-color: #121212;
     overflow-y: auto;
     overscroll-behavior-y: auto;
-    padding-bottom: 1px;
 }
 
 nav {
@@ -94,13 +93,11 @@ nav {
 }
 
 .content {
-    height: 95vh;
     width: 98%;
     margin: 0 auto;
     background-color: transparent;
     min-height: 0;
     overflow: hidden;
-    border-bottom: 1px solid #ffffff40;
 }
 
 
@@ -166,8 +163,12 @@ nav {
 footer {
     width: 100%;
     flex-shrink: 0;
-    margin-top: 40px;
     /* keep footer visible */
+    width: 95%;
+    margin: auto;
+    border-bottom: 1px solid #ffffff40;
+    padding-top: 21px;
+    
 }
 
 .text {
@@ -178,11 +179,14 @@ footer {
     flex-direction: row;
     font-size: 22px;
     width: 100%;
+    
     text-align: center;
     color: rgba(255, 255, 255, 0.885);
     padding-top: 15px;
-    padding-bottom: 4px;
+    padding-bottom: 10px;
     position: absolute;
     bottom: 0;
-    line-height: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 13px;
 }
