@@ -164,7 +164,7 @@ nav {
 footer {
     width: 100%;
     flex-shrink: 0;
-    margin-top: 10px;
+    margin-top: 40px;
     /* keep footer visible */
 }
 
