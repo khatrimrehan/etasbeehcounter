@@ -1,200 +1,187 @@
 @font-face {
-    font-family: "Apple";
-    src: url(/SF-Pro.ttf);
+  font-family: "Apple";
+  src: url(/SF-Pro.ttf);
 }
 
 * {
-    margin: 0;
-    border: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    font-family: "Apple";
-    font-weight: 400;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Apple", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 400;
 }
 
-html , body {
-    height: 100vh;
-    margin: 0;
+/* Page setup: exactly one screen, no scroll */
+html,
+body {
+  height: 100%;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    background-color: #121212;
+  min-height: 100dvh;       /* visible viewport height */
+  display: flex;
+  flex-direction: column;
+  background-color: #121212;
+  overflow: hidden;         /* no page scroll at all */
 }
 
+/* NAVBAR */
 nav {
-    width: 100%;
-    background-color: transparent;
+  width: 100%;
+  background-color: transparent;
+  flex-shrink: 0;           /* don't let nav shrink */
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    color: #ffffff;
-    padding-block: 19px;
-    padding-inline: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  padding-block: 19px;
+  padding-inline: 35px;
 }
 
-/*.center {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}*/
 
 
 .left {
-    display: flex;
-    gap: 23px;
+  display: flex;
+  gap: 23px;
 }
 
 .right {
-    display: flex;
-    gap: 9px;
+  display: flex;
+  gap: 9px;
 }
 
-
-
 .pt-1 img {
-    height: 42px;
+  height: 42px;
 }
 
 .prt-2 img {
-    margin-top: 6px;
-    height: 32px;
+  margin-top: 6px;
+  height: 32px;
 }
 
-
 .pt-2 {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    font-size: 24px;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
 
-    & a {
-        color: #fffffff4;
-        text-decoration: none;
-    }
+.pt-2 a {
+  color: #fffffff4;
+  text-decoration: none;
 }
 
 .prt-1 {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    font-size: 21px;
-    padding-top: 4px;
-
-    & a {
-        color: #ffffffbb;
-        text-decoration: none;
-        transition: all 300ms ease-in-out;
-    }
-
-    & a:hover {
-        font-size: 19.14px;
-        color: #fff;
-    }
+  display: flex;
+  align-items: center;
+  font-size: 21px;
+  padding-top: 4px;
 }
 
+.prt-1 a {
+  color: #ffffffbb;
+  text-decoration: none;
+  transition: all 300ms ease-in-out;
+}
+
+.prt-1 a:hover {
+  font-size: 19.14px;
+  color: #fff;
+}
+
+/* MAIN CONTENT: fills space between nav and footer */
 .content {
-    height: calc(100vh - 139px);
-    width: 98%;
-    margin: auto;
-    background-color: transparent;
-    flex: 1;
-    /* Makes it fill full height between header & footer */
-    min-height: 0;
-    /* Prevent overflow pushing footer down */
-    overflow: hidden;
-    border-bottom: solid 1px #ffffff40;
-    /* Removes unwanted scroll */
+  flex: 1;                           /* take all remaining height */
+  width: 98%;
+  margin: 0 auto;
+  background-color: transparent;
+  min-height: 0;                     /* important to avoid pushing footer */
+  overflow: hidden;                  /* no inner scroll */
+  border-bottom: 1px solid #ffffff40;
 }
 
+/* Example layout inside content (can customize later) */
 .main1 {
-    height: 100%;
-    width: 70%;
-    margin: auto;
-    background-color: red;
-    padding-top: 50px;
+  height: 100%;
+  width: 70%;
+  margin: 0 auto;
+  background-color: red;
+  padding-top: 50px;
 }
 
 .part-1 {
-    display: flex;
-    align-items: start;
-    justify-content: space-evenly;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
 }
 
 .plus {
-    background-color: aqua;
-    height: 300px;
-    width: 300px;
+  background-color: aqua;
+  height: 300px;
+  width: 300px;
 }
 
 .num {
-    background-color: rgb(11, 81, 81);
-    height: 300px;
-    width: 300px;
+  background-color: rgb(11, 81, 81);
+  height: 300px;
+  width: 300px;
 }
 
 .minus {
-    background-color: rgb(0, 42, 42);
-    height: 300px;
-    width: 300px;
+  background-color: rgb(0, 42, 42);
+  height: 300px;
+  width: 300px;
 }
 
 .reset {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-    background-color: blue;
-    height: 40px;
-    width: 160px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  background-color: blue;
+  height: 40px;
+  width: 160px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .finger {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(0, 0, 0);
-    margin-top: 100px;
-    height: 400px;
-    width: 400px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  margin-top: 100px;
+  height: 400px;
+  width: 400px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-footer{
-    width: 100%;
-     
-
+/* FOOTER */
+footer {
+  width: 100%;
+  flex-shrink: 0;          /* keep footer visible */
 }
-.text{
-    gap: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    font-size: 22px;
-    width: 100%;
-    text-align: center;
-   
 
-
-
-    color: rgba(228, 197, 197, 0.885);
-    padding-block: 15px ;
-    position: relative;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
+.text {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 22px;
+  width: 100%;
+  text-align: center;
+  color: rgba(228, 197, 197, 0.885);
+  padding-block: 15px;
+  position: absolute;
+  bottom: 0;
 }
 
 
