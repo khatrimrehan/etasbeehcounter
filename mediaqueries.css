@@ -28,8 +28,3 @@
 
 }
 
-@media (max-height: 670px) {
-    footer{
-        padding-top: 0;
-    }
-}
