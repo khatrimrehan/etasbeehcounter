@@ -95,7 +95,7 @@ nav {
 
 /* MAIN CONTENT: fills space between nav and footer */
 .content {
-    height: 100vh;
+    height: 95vh;
   flex: 1;                           /* take all remaining height */
   width: 98%;
   margin: 0 auto;
