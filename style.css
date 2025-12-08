@@ -100,7 +100,6 @@ nav {
 }
 
 .content {
-    height: calc(100vh - 143px);
     width: 98%;
     margin: auto;
     background-color: transparent;
@@ -173,6 +172,8 @@ nav {
 
 footer{
     width: 100%;
+     
+
 }
 .text{
     gap: 10px;
@@ -183,13 +184,15 @@ footer{
     font-size: 22px;
     width: 100%;
     text-align: center;
+   
 
 
 
     color: rgba(255, 255, 255, 0.885);
     padding-block: 15px ;
-    position: relative;
+    position: absolute;
     left: 50%;
+    bottom: 0;
     transform: translateX(-50%);
 }
 
