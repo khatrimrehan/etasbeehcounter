@@ -61,6 +61,14 @@ nav {
 .prt-2 img {
     margin-top: 6px;
     height: 32px;
+    transition: all 600ms ease-in-out;
+    transform: rotate(90deg);
+}
+
+.prt-2 img:hover{
+
+    transform: rotate(180deg);
+    scale: calc(1.1);
 }
 
 .pt-2 {
@@ -88,7 +96,7 @@ nav {
 }
 
 .prt-1 a:hover {
-    font-size: 19.14px;
+    font-size: 21.14px;
     color: #fff;
 }
 
