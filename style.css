@@ -3,13 +3,21 @@
     src: url(/SF-Pro.ttf);
 }
 
+:root{
+    --back-groundcolor:#121212;
+    --text-color:#ffffff;
+    --text-color1:#fffffff4;
+    --text-color2:#ffffffbb;
+
+}
+
 * {
     margin: 0;
     border: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: "Apple", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: "Apple";
     font-weight: 400;
 }
 
@@ -23,7 +31,7 @@ body {
     /* visible viewport height */
     display: flex;
     flex-direction: column;
-    background-color: #121212;
+    background-color: var(--back-groundcolor);
     overflow-y: auto;
     overscroll-behavior-y: auto;
 }
@@ -37,7 +45,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #ffffff;
+    color: var(--text-color);
     padding-block: 19px;
     padding-inline: 35px;
 }
@@ -78,7 +86,7 @@ nav {
 }
 
 .pt-2 a {
-    color: #fffffff4;
+    color: var(--text-color1);
     text-decoration: none;
 }
 
@@ -90,7 +98,7 @@ nav {
 }
 
 .prt-1 a {
-    color: #ffffffbb;
+    color: var(--text-color2);
     text-decoration: none;
     transition: all 300ms ease-in-out;
 }
