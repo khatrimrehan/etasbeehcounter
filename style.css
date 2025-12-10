@@ -3,6 +3,12 @@
     src: url(/SF-Pro.ttf);
 }
 
+.lightmode{
+      transition: background 0.3s ease-in-out, color 0.2s ease-in-out;
+}
+.lightmod{
+      transition: background 0.3s ease-in-out, color 0.2s ease-in-out;
+}
 :root{
     --back-groundcolor:#121212;
     --text-color:#ffffff;
@@ -267,3 +273,4 @@ footer {
     line-height: 13px;
 
 }
+
