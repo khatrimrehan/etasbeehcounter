@@ -10,11 +10,17 @@ let finGer = document.getElementById("fingeR")
 
 let cliCked = document.getElementById("clicked")
 
+let cliCcked = document.getElementsByClassName("finger-text")
 
-function clicked() {
-  cliCked.style.display = "none"
-  
-}
+
+const ignore = [rSetBtn, finGer, loGo, lighT];
+
+document.addEventListener("click", (e) => {
+    if (ignore.includes(e.target)) {
+        return;
+    }
+});
+
 
 
 function lightmode() {
