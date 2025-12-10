@@ -53,7 +53,7 @@ body, * {
   -moz-user-select: none;     /* Firefox */
   -ms-user-select: none;      /* IE10+ */
 }
-img {
+.main img {
   user-drag: none;            /* Chrome/Safari */
   -webkit-user-drag: none;    /* Safari */
   -moz-user-drag: none;       /* Firefox */
