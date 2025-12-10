@@ -4,12 +4,10 @@
 }
 
 .lightmode{
-    transition: all 0.4s ease-in-out;
-      transition: all 0.4s ease-in-out, color 0.2s ease-out;
+      transition: all 0.4s ease-out, color 0.2s ease-out;
 }
 .lightmod{
-    transition: all 0.4s ease-in-out;
-      transition: all 0.4s ease-in-out, color 0.2s ease-in;
+      transition: all 0.4s ease-in, color 0.2s ease-in;
 }
 :root{
     --back-groundcolor:#121212;
