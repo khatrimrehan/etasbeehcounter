@@ -248,10 +248,11 @@ nav {
     opacity: 0.4;
 }
 
-#finger-text{
+.finger-text p{
     position: fixed;
     width: 80%;
     left: 50%;
+    background-color: red;
     transform: translateX(-50%);
     display: block;
     text-align: center;

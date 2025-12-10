@@ -8,10 +8,12 @@ let rSetBtn = document.getElementById("reset-btn")
 
 let finGer = document.getElementById("fingeR")
 
-let cliCked = document.getElementById("finger-text")
+let cliCked = document.getElementById("clicked")
+
 
 function clicked() {
-  cliCked.textContent= ""
+  cliCked.style.display = "none"
+  
 }
 
 
