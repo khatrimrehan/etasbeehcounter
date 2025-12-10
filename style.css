@@ -46,6 +46,23 @@ body {
     height: 100%;
     touch-action: manipulation; /* tells browser not to zoom on double tap */
 }
+/* Disable user text selection */
+body, * {
+  user-select: none;          /* Standard */
+  -webkit-user-select: none;  /* Safari */
+  -moz-user-select: none;     /* Firefox */
+  -ms-user-select: none;      /* IE10+ */
+}
+img {
+  user-drag: none;            /* Chrome/Safari */
+  -webkit-user-drag: none;    /* Safari */
+  -moz-user-drag: none;       /* Firefox */
+  -ms-user-drag: none;        /* IE10+ */
+  pointer-events: none;       /* disables mouse events on images */
+  -webkit-touch-callout: none; /* disables context menu on long tap (iOS) */
+}
+
+
 
 
 
