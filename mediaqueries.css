@@ -28,7 +28,7 @@
     }
     
     .text {
-        padding-block: 10px;
+        padding-block: 14px;
         font-size: 14px;
         line-height: 10px;
     }
@@ -112,6 +112,12 @@
     }
 
     
+}
+@media (max-width: 350px) {
+    .line3 {
+        margin-top: 90px;
+        margin-bottom: 10px;
+    }
 }
 
 
