@@ -11,8 +11,10 @@ let finGer = document.getElementById("fingeR")
 let cliCked = document.getElementById("finger-text")
 
 function clicked() {
-  cliCked.style.display = "none"
+  cliCked.textContent= ""
 }
+
+
 function lightmode() {
 
  loGo.src = "sparkel-dark.png"
