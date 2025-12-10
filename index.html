@@ -9,17 +9,17 @@
  <title>Tasbeeh Counter</title>
 </head>
 
-<body class="dakmode" id="changemode">
+<body class="lightmod" id="changemode">
 
 
  <nav>
   <div class="navbar">
    <div class="right">
 
-    <div class="pt-1">
+    <div class="pt-1" >
 
      <a href="/">
-      <img src="fluent--sparkle-16-regular (1).png">
+      <img id="logo" src="fluent--sparkle-16-regular (1).png">
      </a>
 
     </div>
@@ -32,11 +32,12 @@
    <div class="left">
     <div class="prt-1"><a href="/">Contact</a></div>
 
-    <div class="prt-2" onclick="lightmode()">
+    <div class="prt-2" >
 
      <a>
 
-      <img src="iconamoon--mode-light-fill.png">
+      <img src="iconamoon--mode-light-fill.png" onclick="lightmode()" id="light" >
+      <img src="chand-dark.png" alt="" onclick="darkmode()">
 
      </a>
 
@@ -55,15 +56,15 @@
     <div class="line0">
 
      <div class="minus" onclick="decriment()">-</div>
-     <div class="num">0</div>
+     <div class="num" id="sun">0</div>
      <div class="plus">+</div>
 
     </div>
 
     <div class="line1">
 
-     <div class="reset-btn">
-      <img src="resetlogo.png" alt="">
+     <div class="reset-btn" >
+      <img id="reset-btn" src="resetlogo.png" alt="">
      </div>
      <div class="reset">Reset</div>
 
@@ -73,7 +74,9 @@
 
      <div class="finger">
 
-      <img src="streamline--one-finger-tap-remix.svg" alt="">
+      <img 
+      id="fingeR"
+      src="streamline--one-finger-tap-remix.svg" alt="">
          
      </div>
      <div class="finger-text">Tap Anywhere For Counting</div>
