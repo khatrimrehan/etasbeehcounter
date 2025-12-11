@@ -14,11 +14,14 @@ const ignoreElements = [rSetBtn, finGer, loGo, lighT, cliCked, minUs, incrimenTA
 const ignoreClassElements = Array.from(cliCcked || []).filter(Boolean);
 
 
-function countany() {
-  console.log("hahahaha")
-}
+
 
 function vibrate() {
+  if (navigator.vibrate) {
+    console.log("Supported: " + navigator.vibrate([100]));
+  } else {
+    console.log("Vibration NOT supported");
+  }
   if (navigator.vibrate) {
     navigator.vibrate(40);
   }
@@ -44,18 +47,35 @@ let count = 0
 let countEL = document.getElementById("count-el")
 
 function incrimentAnywhere() {
+  
+  count += 0
+  countEL.textContent = 0
+ 
+}
+
+function countany() {
+  
   count += 1
   countEL.textContent = count
+ 
 }
 function minuses() {
+
+  console.log(minUs)
+
   if (count > 0) {
-    count -= 1
+    count -= 1 + 1
+
   }
-  countEL.textContent = count
-}
-function lineoNe() {
   countEL.textContent = 0
-  count = 0
+}
+
+
+
+
+function lineoNe() {
+  count = -1
+  countEL.textContent = 0
 }
 
 
