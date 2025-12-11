@@ -56,14 +56,6 @@ function darkmode() {
 }
 
 let count = 0
-if (count > 1) {
-  minUs.style.opacity = "0.8"
-}  
-
-if (count < 1) {
-  minUs.style.opacity = "0.4"
-}  
-
 let countEL = document.getElementById("count-el")
 
 
