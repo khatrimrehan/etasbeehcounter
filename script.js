@@ -17,6 +17,12 @@ document.addEventListener("click", (e) => {
   }
 });
 
+function vibrate() {
+    if (navigator.vibrate) {
+        navigator.vibrate(40);
+    }
+}
+
 
 
 function minuses() {
