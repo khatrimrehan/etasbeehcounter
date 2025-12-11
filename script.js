@@ -19,7 +19,7 @@ document.addEventListener("click", (e) => {
 
 function vibrate() {
     if (navigator.vibrate) {
-        navigator.vibrate(30);
+        navigator.vibrate(50);
     }
 }
 
