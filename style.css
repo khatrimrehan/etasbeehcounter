@@ -57,6 +57,8 @@ body {
  height: 100%;
  touch-action: manipulation;
  /* tells browser not to zoom on double tap */
+ -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 /* Disable user text selection */

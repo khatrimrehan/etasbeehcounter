@@ -9,18 +9,23 @@
  <link rel="stylesheet" href="style.css">
  <link rel="stylesheet" href="mediaqueries.css">
 
-<link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#000000">
+ <link rel="manifest" href="manifest.json">
+ <meta name="theme-color" content="#000000">
+
+ <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+ <meta name="theme-color" content="#000000">
+
+
 
  <title>Tasbeeh Counter</title>
 </head>
 
 <script>
-if ("serviceWorker" in navigator) {
+ if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("service-worker.js")
-    .then(() => console.log("Service Worker registered"))
-    .catch(err => console.log("SW registration failed", err));
-}
+   .then(() => console.log("Service Worker registered"))
+   .catch(err => console.log("SW registration failed", err));
+ }
 </script>
 
 
@@ -63,14 +68,13 @@ if ("serviceWorker" in navigator) {
 
  <section onclick="vibrate()">
 
-  <div class="content" id="numberinc" >
+  <div class="content" id="numberinc">
 
    <div class="main " id="incanywhere">
 
     <div class="line0">
 
-     <div id="hahaha"
-     onclick="minuses()" >-</div>
+     <div id="hahaha" onclick="minuses()">-</div>
      <div class="num" id="count-el">0</div>
      <div class="plus" onclick="incrimentAnywhere()">+</div>
 
