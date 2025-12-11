@@ -244,10 +244,10 @@ nav {
  font-size: 9rem;
 }
 
-#hahaha {
- color: var(--text-color);
+.minus {
  cursor: pointer;
  font-size: 6.5rem;
+ opacity: 0.75;
 }
 
 .line1 {
