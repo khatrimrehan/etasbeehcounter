@@ -1,6 +1,8 @@
 @font-face {
  font-family: "Apple";
- src: url(/SF-Pro.ttf);
+ src: url(/SF-Pro.ttf) format('truetype')
+ url(/SF-Pro.ttf) format('woff2')
+ ;
 }
 
 .lightmode {
