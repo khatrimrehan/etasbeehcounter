@@ -122,11 +122,11 @@
 
     .menu-bar{
         width: 315px;
-        margin-top: 30px ;
-
-        padding-top: 40px;
-        padding-left: 32px;
-        padding-bottom: 20px;
+        margin-top: 20px ;
+        height: 79vh;
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-bottom: 7px;
     }
     .bottom{
         padding-bottom: 10;
@@ -136,7 +136,11 @@
     }
 
     .menu-bar ul li a , .btm-text , .theme-logo i{
-        font-size: 20px;
+        font-size: 14px;
+    }
+
+    .ul-prt-1 i {
+        font-size: 18px;
     }
 
     

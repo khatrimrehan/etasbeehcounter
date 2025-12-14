@@ -2,176 +2,176 @@
 <html lang="en">
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="mediaqueries.css">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="mediaqueries.css">
 
-  <link rel="manifest" href="manifest.json">
-  <meta name="theme-color" content="#000000">
+ <link rel="manifest" href="manifest.json">
+ <meta name="theme-color" content="#000000">
 
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
+ <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#000000">
+ <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+ <meta name="theme-color" content="#000000">
 
-  <title>Tasbeeh Counter</title>
+ <title>Tasbeeh Counter</title>
 </head>
 
 <script>
-  if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("service-worker.js")
-      .then(() => console.log("Service Worker registered"))
-      .catch(err => console.log("SW registration failed", err));
-  }
+ if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("service-worker.js")
+   .then(() => console.log("Service Worker registered"))
+   .catch(err => console.log("SW registration failed", err));
+ }
 </script>
 
 
 <body class="lightmod" id="changemode">
 
-  <nav>
-    <div class="navbar">
-      <div class="right">
+ <nav>
+  <div class="navbar">
+   <div class="right">
 
-        <div class="pt-1">
+    <div class="pt-1">
 
-          <a href="/">
-            <img id="logo" src="fluent--sparkle-16-regular (1).png">
-          </a>
+     <a href="/">
+      <img id="logo" src="fluent--sparkle-16-regular (1).png">
+     </a>
 
-        </div>
-        </a>
-        <div class="pt-2"> <a href="/">Tasbeeh Counter</a></div>
-      </div>
-      <!-- <div class="center">
+    </div>
+    </a>
+    <div class="pt-2"> <a href="/">Tasbeeh Counter</a></div>
+   </div>
+   <!-- <div class="center">
                 <h1>how are you</h1>
             </div>-->
-      <div class="left">
+   <div class="left">
 
-        <!--<div class="prt-1"><a href="/">Contact</a></div>-->
+    <!--<div class="prt-1"><a href="/">Contact</a></div>-->
 
-        <div class="prt-2" onclick="menubtn()">
+    <div class="prt-2" onclick="menubtn()">
 
 
-          <i class="ri-menu-fill"></i>
-          <!-- <img src="iconamoon--mode-light-fill.png" onclick="lightmode()" id="light">
+     <i class="ri-menu-fill"></i>
+     <!-- <img src="iconamoon--mode-light-fill.png" onclick="lightmode()" id="light">
             <img src="chand-dark.png" alt="" onclick="darkmode()">-->
 
 
 
 
-        </div>
-      </div>
     </div>
-  </nav>
+   </div>
+  </div>
+ </nav>
 
-  <section onclick="vibrate()">
+ <section onclick="vibrate()">
 
-    <div class="content" id="anywhere">
+  <div class="content" id="anywhere">
 
-      <div class="main1" id="incanywhere">
+   <div class="main1" id="incanywhere">
 
-        <div class="line0">
+    <div class="line0">
 
-          <div class="minus" onclick="minuses()">-</div>
-          <div class="num" id="count-el">0</div>
-          <div class="plus" onclick="incrimentAnywhere()">+</div>
-
-        </div>
-
-        <div class="line1" id="line1" onclick="lineoNe()">
-
-          <div class="reset-btn">
-            <img id="reset-btn" src="resetlogo.png" alt="">
-          </div>
-          <div class="reset">Reset</div>
-
-        </div>
-      </div>
-
-      <div id="countany" class="main2" onclick="countany()">
-
-        <div class="line3">
-
-          <div class="finger">
-
-            <img id="fingeR" src="streamline--one-finger-tap-remix.svg" alt="">
-
-          </div>
-          <div class="finger-text" id="clicked">
-            <p> Tap AnyWhere For Counting </p>
-          </div>
-
-        </div>
-      </div>
-  </section>
-
-  <section class="menu-bar" id="menubar">
-
-
-  
-
-      <div class="upper">
-
-        <ul>
-
-          <li class="list-1">
-            <div class="ul-prt-1"><i class="ri-home-4-line"></i></div>
-            <div class="ul-prt-2"><a href="">Home</a></div>
-          </li>
-
-        </ul>
-
-        <ul>
-
-          <li class="list-1">
-            <div class="ul-prt-1"><i class="ri-history-fill"></i></div>
-            <div class="ul-prt-2"><a href="">History</a></div>
-          </li>
-
-        </ul>
-
-        <ul>
-
-          <li class="list-1">
-            <div class="ul-prt-1"><i class="ri-information-2-line"></i></div>
-            <div class="ul-prt-2"><a href="">About Us</a></div>
-          </li>
-
-        </ul>
-      </div>
-
-      <div class="bottom">
-        <div class="btm-text">
-          Dark Theme : On
-        </div>
-        <div class="theme-logo">
-          <i class="ri-moon-fill"></i>
-        </div>
-      </div>
+     <div class="minus" onclick="minuses()">-</div>
+     <div class="num" id="count-el">0</div>
+     <div class="plus" onclick="incrimentAnywhere()">+</div>
 
     </div>
 
+    <div class="line1" id="line1" onclick="lineoNe()">
 
-  </section>
+     <div class="reset-btn">
+      <img id="reset-btn" src="resetlogo.png" alt="">
+     </div>
+     <div class="reset">Reset</div>
 
-  <footer>
-    <div class="text">
-      Designed
-      with ❤️ By TheDzinsBrand
-      | &#169; All Rights Reserved
     </div>
+   </div>
+
+   <div id="countany" class="main2" onclick="countany()">
+
+    <div class="line3">
+
+     <div class="finger">
+
+      <img id="fingeR" src="streamline--one-finger-tap-remix.svg" alt="">
+
+     </div>
+     <div class="finger-text" id="clicked">
+      <p> Tap AnyWhere For Counting </p>
+     </div>
+
+    </div>
+   </div>
+ </section>
+
+ <section class="menu-bar" id="menubar">
+
+
+
+
+  <div class="upper">
+
+   <ul>
+
+    <li class="list-1">
+     <div class="ul-prt-1"><i class="ri-home-4-line"></i></div>
+     <div class="ul-prt-2"><a href="">Home</a></div>
+    </li>
+
+   </ul>
+
+   <ul>
+
+    <li class="list-1">
+     <div class="ul-prt-1"><i class="ri-history-fill"></i></div>
+     <div class="ul-prt-2"><a href="">History</a></div>
+    </li>
+
+   </ul>
+
+   <ul>
+
+    <li class="list-1">
+     <div class="ul-prt-1"><i class="ri-information-2-line"></i></div>
+     <div class="ul-prt-2"><a href="">About Us</a></div>
+    </li>
+
+   </ul>
+  </div>
+
+  <div class="bottom">
+   <div class="btm-text">
+    Dark Theme : On
+   </div>
+   <div class="theme-logo">
+    <i class="ri-moon-fill"></i>
+   </div>
+  </div>
+
+  </div>
+
+
+ </section>
+
+ <footer>
+  <div class="text">
+   Designed
+   with ❤️ By TheDzinsBrand
+   | &#169; All Rights Reserved
+  </div>
 
 
 
 
 
-  </footer>
+ </footer>
 
 
-  <script src="script.js"></script>
+ <script src="script.js"></script>
 
 </body>
 
