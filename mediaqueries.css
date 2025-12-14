@@ -22,10 +22,7 @@
     .menu-bar ul li a , .btm-text , .theme-logo i{
         font-size: 18px;
     }
-    .btm-text{
-        padding-left: 10px;
-    }
-
+    
     .ul-prt-1 i {
         font-size: 22px;
     }
@@ -145,13 +142,15 @@
     }
 
     .menu-bar{
-        width: 240px;
+        width: 260px;
         margin-top: 25px ;
         height: 79vh;
         padding-top: 25px;
-        padding-left: 15px;
+        padding-left: 25px;
         padding-bottom: 7px;
     }
+
+    
 
 
 
