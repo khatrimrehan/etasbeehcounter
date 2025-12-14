@@ -299,7 +299,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    gap: 0;
+    gap: 100px;
 }
 
 
@@ -353,13 +353,14 @@ nav {
     flex-direction: column;
     gap: 10px;
     background-color: transparent;
+    padding-top: 70px;
 
     width: 100%;
    
 }
 
 .main2 {
-    padding-top: 90px;
+    padding-bottom: 120px;
     background-color: transparent;
     width: 100%;
     
