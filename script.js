@@ -88,7 +88,7 @@ function menubtn() {
   if (isOpen){
     menuBar.style.transform = "translateX(120%)";
   } else  {
-    menuBar.style.transform = "translateX(-10%)";
+    menuBar.style.transform = "translateX(-9%)";
     }
   
   isOpen = !isOpen;
