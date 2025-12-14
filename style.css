@@ -195,9 +195,6 @@ nav {
     top: 7.3%;
     right: 0;
 
-    transform: translateX(150%);
-
-
     width: 370px;
     border-radius: 20px;
     border: 2px solid #ffffff4a;
@@ -210,12 +207,15 @@ nav {
     padding-left: 40px;
     box-sizing: border-box;
 
-    background-color: rgba(44, 44, 44, 0.266);
+    background-color: red;
 
     background:linear-gradient(110deg, #1a1a1a,#121212);
     overflow-y: hidden;
 
-    transition: 0.5s ease;
+    transform: translateX(120%);
+    transition: all ease 400ms;
+
+    margin-right: 45px;
 
     gap: 20px;
 }

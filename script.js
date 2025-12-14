@@ -81,18 +81,21 @@ function lineoNe() {
   countEL.textContent = 0
 }
 
+
+
 let isOpen = false;
 
 function menubtn() {
 
   if (isOpen){
-    menuBar.style.transform = "translateX(120%)";
+    menuBar.style.transform = "translate(120%)";
   } else  {
-    menuBar.style.transform = "translateX(-9%)";
+    menuBar.style.transform = "translate(0%)";
     }
   
   isOpen = !isOpen;
 }
+  
 
 
 
