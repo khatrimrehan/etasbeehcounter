@@ -212,12 +212,18 @@ nav {
     background:linear-gradient(110deg, #1a1a1a,#121212);
     overflow-y: hidden;
 
-    transform: translateX(120%);
-    transition: all ease 400ms;
+    transform: translateX(120%) scale(0.75);
+    transform-origin: top right;
+
+    transition: transform 0.55s cubic-bezier(.34,1.56,.64,1) ;
 
     
 
     gap: 20px;
+}
+
+.menu-bar.active{
+    transform: translateX(0) scale(1);
 }
 
 
