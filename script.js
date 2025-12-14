@@ -89,8 +89,12 @@ function menubtn() {
 
   if (isOpen){
     menuBar.style.transform = "translate(120%) scale(0.75)";
+
+
   } else  {
     menuBar.style.transform = "translate(0%)";
+
+
     }
   
   isOpen = !isOpen;
