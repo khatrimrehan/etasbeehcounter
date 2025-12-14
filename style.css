@@ -217,7 +217,7 @@ nav {
 
     transition: transform 500ms cubic-bezier(.14,1.56,.80,1) ;
 
-    
+    margin-right: 35px;
 
     gap: 20px;
 }
