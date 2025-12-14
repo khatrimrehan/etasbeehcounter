@@ -141,6 +141,9 @@
     .menu-bar ul li a , .btm-text , .theme-logo i{
         font-size: 18px;
     }
+    .btm-text{
+        padding-left: 10px;
+    }
 
     .ul-prt-1 i {
         font-size: 18px;
