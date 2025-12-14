@@ -124,9 +124,12 @@
         width: 315px;
         margin-top: 20px ;
         height: 79vh;
-        padding-top: 15px;
+        padding-top: 25px;
         padding-left: 15px;
         padding-bottom: 7px;
+    }
+    .upper{
+        gap: 20px;
     }
     .bottom{
         padding-bottom: 10;
@@ -136,7 +139,7 @@
     }
 
     .menu-bar ul li a , .btm-text , .theme-logo i{
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .ul-prt-1 i {
