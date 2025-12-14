@@ -38,6 +38,7 @@
     .menu-bar{
         margin-left: 22px;
         margin-right: 22px;
+        width: 89vw;
     }
 
     .content {
@@ -128,21 +129,6 @@
 }
 
 
-@media (max-width: 431px) {
-    .menu-bar{
-        width: 387px;
-    }
-}
-@media (max-width: 415px) {
-    .menu-bar{
-        width: 370px;
-    }
-}
-@media (max-width: 391px) {
-    .menu-bar{
-        width: 348px;
-    }
-}
 @media (max-width: 376px) {
 
     
@@ -161,7 +147,7 @@
     }
 
     .menu-bar{
-       width: 332px;
+       
         margin-top: 25px;
         height: 79vh;
         padding-top: 25px;
@@ -176,9 +162,7 @@
     
 }
 @media (max-width: 361px) {
-      .menu-bar{
-        width: 318px;
-    }
+   
 }
 
 @media (max-width: 350px) {
@@ -187,9 +171,7 @@
         margin-bottom: 10px;
     }
 
-     .menu-bar{
-        width: 300px;
-    }
+    
 }
 
 
