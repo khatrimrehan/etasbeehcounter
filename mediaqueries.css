@@ -102,6 +102,11 @@
 }
 
 @media (max-width: 380px) {
+
+    .menu-bar{
+        transform: translateX(130%);
+    }
+
     .main1{
         padding-top: 60px;
     }
@@ -113,6 +118,25 @@
     .line3 {
         margin-top: 45px;
         margin-bottom: 10px;
+    }
+
+    .menu-bar{
+        width: 315px;
+        margin-top: 30px ;
+
+        padding-top: 40px;
+        padding-left: 32px;
+        padding-bottom: 20px;
+    }
+    .bottom{
+        padding-bottom: 10;
+    }
+    .list-1{
+        gap: 15px;
+    }
+
+    .menu-bar ul li a , .btm-text , .theme-logo i{
+        font-size: 20px;
     }
 
     

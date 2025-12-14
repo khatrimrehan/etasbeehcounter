@@ -8,6 +8,9 @@ let cliCcked = document.getElementsByClassName("finger-text")
 let minUs = document.getElementById("hahaha")
 let incrimenTAnywhere = document.getElementById("incanywhere")
 let AnyWhere = document.getElementById("anywhere")
+let menuBar = document.getElementById("menubar")
+
+
 
 
 const ignoreElements = [rSetBtn, finGer, loGo, lighT, cliCked, minUs, incrimenTAnywhere, AnyWhere].filter(Boolean);
@@ -74,10 +77,22 @@ countEL.textContent = count
 
 
 function lineoNe() {
-  count = -1
+  count = 0
   countEL.textContent = 0
 }
 
+let isOpen = false;
+
+function menubtn() {
+
+  if (isOpen){
+    menuBar.style.transform = "translateX(120%)";
+  } else  {
+    menuBar.style.transform = "translateX(-10%)";
+    }
+  
+  isOpen = !isOpen;
+}
 
 
 
