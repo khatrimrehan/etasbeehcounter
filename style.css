@@ -215,7 +215,7 @@ nav {
     background:linear-gradient(110deg, #1a1a1a,#121212);
     overflow-y: hidden;
 
-    transition: 0.4s ease;
+    transition: 0.5s ease;
 
     gap: 20px;
 }
