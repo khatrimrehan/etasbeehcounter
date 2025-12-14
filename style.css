@@ -352,13 +352,15 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background-color: red;
+    background-color: transparent;
+    padding-block: 60px;
     width: 100%;
    
 }
 
 .main2 {
-    background-color: blue;
+    padding-block: 60px;
+    background-color: transparent;
     width: 100%;
     
 }
