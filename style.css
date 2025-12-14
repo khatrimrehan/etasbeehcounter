@@ -352,7 +352,7 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background-color: transparent;
+    background-color: red;
     padding-block: 60px;
     width: 100%;
    
@@ -360,7 +360,7 @@ nav {
 
 .main2 {
     padding-block: 60px;
-    background-color: transparent;
+    background-color: blue;
     width: 100%;
     
 }
