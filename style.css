@@ -215,7 +215,7 @@ nav {
     transform: translateX(120%) scale(0.75);
     transform-origin: top right;
 
-    transition: transform 0.55s cubic-bezier(.34,1.56,.64,1) ;
+    transition: transform 500ms cubic-bezier(.14,1.56,.80,1) ;
 
     
 
