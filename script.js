@@ -13,7 +13,7 @@ let menuBar = document.getElementById("menubar")
 
 
 
-const ignoreElements = [rSetBtn, finGer, loGo, lighT, cliCked, minUs, incrimenTAnywhere, AnyWhere].filter(Boolean);
+const ignoreElements = [rSetBtn, finGer, loGo, lighT, cliCked, minUs, incrimenTAnywhere, menuBar, AnyWhere].filter(Boolean);
 const ignoreClassElements = Array.from(cliCcked || []).filter(Boolean);
 
 
@@ -26,7 +26,7 @@ function vibrate() {
     console.log("Vibration NOT supported");
   }
   if (navigator.vibrate) {
-    navigator.vibrate(40);
+    navigator.vibrate(50);
   }
 }
 function lightmode() {
@@ -88,15 +88,14 @@ let isOpen = false;
 function menubtn() {
 
   if (isOpen){
-    menuBar.style.transform = "translate(120%) scale(0.65)";
+    menuBar.style.transform = "translate(120%) scale(0.75)";
   } else  {
-    menuBar.style.transform = "translate(0%) ";
+    menuBar.style.transform = "translate(0%)";
     }
   
   isOpen = !isOpen;
 }
   
-
 
 
 
