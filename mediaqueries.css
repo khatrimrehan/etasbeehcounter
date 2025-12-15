@@ -36,9 +36,11 @@
     }
 
     .menu-bar{
-        margin-left: 22px;
-        margin-right: 22px;
-        width: 89vw;
+
+        left: 20px;
+     
+        margin-right: 20px;
+        width:93vw;
     }
 
     .content {
@@ -58,6 +60,15 @@
         padding-block: 14px;
         font-size: 14px;
         line-height: 10px;
+    }
+}
+
+@media (max-width: 490px) {
+     .menu-bar{
+        left: 18px;
+     
+        margin-right: 20px;
+        width:91.6vw;
     }
 }
 
