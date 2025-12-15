@@ -219,7 +219,7 @@ nav {
 
     transform-origin: top right;
 
-    transition: transform 500ms cubic-bezier(.14,1.56,.80,1) ;
+    transition: transform 800ms cubic-bezier(.14,1.56,.80,1) ;
 
 
     margin-right: 35px;
