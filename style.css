@@ -443,13 +443,13 @@ footer {
 }
 
 #svg{
-    fill: rgb(0, 0, 0);
+    fill: rgb(139, 139, 139);
     z-index: 999;
     height: 80px;
     width: 62px;
     stroke: #ffffff;
     stroke-dasharray: 4500;
-    stroke-width: 3px;
+    stroke-width: 6px;
     animation: drow 9s ease;
 }
 

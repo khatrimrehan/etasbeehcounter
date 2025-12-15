@@ -1,8 +1,8 @@
 gsap.fromTo(
   ".container",
-  { opacity: 1 },
+  { autoAlpha: 1 },
   {
-  opacity: 0,
+  autoAlpha: 0,
   duration: 0.5,
   delay: 3,
 }
@@ -12,14 +12,17 @@ gsap.fromTo(
     ".logo-name",
     {
         y: 50,
-        opacity: 0,
+        autoAlpha: 0,
     },
     {
         y: 0,
-        opacity: 1,
+        autoAlpha: 1,
         duration: 2,
         delay: 0.5,
     }
 );
+
+let cnT = document.getElementById("cnt")
+
 
     
