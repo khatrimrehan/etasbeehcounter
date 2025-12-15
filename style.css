@@ -213,7 +213,7 @@ nav {
 
     background-color: transparent;
 
-    background:linear-gradient(110deg, #1a1a1a,#121212);
+    background:linear-gradient(110deg, #1a1a1a,#101010);
     overflow: hidden;
     transform: translateX(100%) scale(0.75);
 
