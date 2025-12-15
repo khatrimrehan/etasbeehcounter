@@ -450,7 +450,7 @@ footer {
     stroke: #ffffff;
     stroke-dasharray: 4500;
     stroke-width: 3px;
-    animation: drow 7s ease;
+    animation: drow 9s ease;
 }
 
 .logo-name{
@@ -459,6 +459,11 @@ footer {
     font-size: 18;
     padding-left: 15px;
     letter-spacing: 2px;
+}
+
+.name-container{
+    height: 10px;
+    overflow: hidden;
 }
 
 @keyframes drow{
