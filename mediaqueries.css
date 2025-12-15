@@ -89,9 +89,13 @@
         }
 
     .reset-btn img {
-        height: 25.5px;
-        padding-top: 4px;
+        height: 18.5px;
+    
 
+    }
+
+    .line1{
+        padding-right: 13px;
     }
     
     .reset {
@@ -99,10 +103,7 @@
         font-size: 1.27rem;
         padding-bottom: 0.5px;
     }
-
-    .line1 {
-        margin-top: 25px;
-    }
+    
 
     .line3 {
         gap: 20px;
@@ -138,7 +139,7 @@
 
 @media (max-width: 376px) {
 
-    =
+    
 
   .content {
     gap: 1px;
