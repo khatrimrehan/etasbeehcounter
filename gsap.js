@@ -4,7 +4,7 @@ gsap.fromTo(
   {
   autoAlpha: 0,
   duration: 0.5,
-  delay: 5,
+  delay: 6,
 }
 );
 
