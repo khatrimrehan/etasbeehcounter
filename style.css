@@ -447,11 +447,11 @@ footer {
 #svg{
     fill: var(--back-groundcolor);
     z-index: 999;
-    height: 80px;
-    width: 62px;
+    height: 90px;
+    width: 120px;
     stroke: #ffffff;
     stroke-dasharray: 4500;
-    stroke-width: 6px;
+    stroke-width: 4px;
     animation: drow 9s ease;
 }
 
