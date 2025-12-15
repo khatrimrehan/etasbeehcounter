@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: -apple-system , "Apple" ;
+    font-family: -apple-system, "Apple";
 }
 
 
@@ -127,7 +127,7 @@ nav {
 
 .right {
     display: flex;
-    gap: 9px;
+    gap: 13px;
 }
 
 .pt-1 img {
@@ -202,7 +202,7 @@ nav {
     border: 2px solid #ffffff1d;
 
 
-    
+
 
     padding-top: 60px;
     margin-top: 20px;
@@ -213,29 +213,29 @@ nav {
 
     background-color: transparent;
 
-    background:linear-gradient(110deg, #1a1a1a,#101010);
+    background: linear-gradient(110deg, #1a1a1a, #101010);
     overflow: hidden;
     transform: translateX(100%) scale(0.75);
 
     transform-origin: top right;
 
-    transition: transform 750ms cubic-bezier(.14,1.26,.80,1) ;
+    transition: transform 750ms cubic-bezier(.14, 1.26, .80, 1);
 
 
     margin-right: 35px;
-    
+
 
     gap: 20px;
 
     z-index: 1000;
 }
 
-.menu-bar.active{
+.menu-bar.active {
     transform: translateX(0) scale(1);
 }
 
 
-.menu{
+.menu {
     display: flex;
     flex-direction: column;
 }
@@ -247,7 +247,7 @@ nav {
     flex-direction: column;
     gap: 32px;
 
-  
+
 }
 
 .bottom {
@@ -312,20 +312,24 @@ nav {
 .main1 {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 10px;
     background-color: transparent;
-padding-top: 20px;
     height: 100%;
 
     width: 100%;
-   
+
 }
 
 .main2 {
     background-color: transparent;
     width: 100%;
     height: 100%;
-    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .line0 {
@@ -431,7 +435,7 @@ footer {
 
 }
 
-.container{
+.container {
     background-color: var(--back-groundcolor);
     position: absolute;
     height: 100%;
@@ -444,7 +448,7 @@ footer {
     gap: 10px;
 }
 
-#svg{
+#svg {
     fill: var(--back-groundcolor);
     z-index: 999;
     height: 170px;
@@ -455,7 +459,7 @@ footer {
     animation: drow 13s ease-in-out;
 }
 
-.logo-name{
+.logo-name {
     color: #fff;
     fill-opacity: 0;
     font-size: 18px;
@@ -463,17 +467,18 @@ footer {
     letter-spacing: 2px;
 }
 
-.name-container{
+.name-container {
     height: 30px;
     overflow: hidden;
 }
 
-@keyframes drow{
+@keyframes drow {
     0% {
         stroke-dashoffset: 4500;
-    } 
+    }
+
     100% {
         stroke-dashoffset: 0;
-    } 
+    }
 }
 
