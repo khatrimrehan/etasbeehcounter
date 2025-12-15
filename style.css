@@ -187,19 +187,21 @@ nav {
 
 
 .menu-bar {
-    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    position: absolute;
+
+    position: fixed;
     top: 7.3%;
     right: 0;
 
     width: 370px;
+    height: 80vh;
+
     border-radius: 20px;
     border: 2px solid #ffffff1d;
 
-    height: 80vh;
+    
 
     padding-top: 60px;
     margin-top: 20px;
@@ -211,8 +213,8 @@ nav {
     background-color: transparent;
 
     background:linear-gradient(110deg, #1a1a1a,#121212);
-    overflow-y: hidden;
-    transform: translateX(120%) scale(0.75);
+    overflow: hidden;
+    transform: translateX(100%) scale(0.75);
 
     transform-origin: top right;
 
@@ -221,6 +223,8 @@ nav {
     margin-right: 35px;
 
     gap: 20px;
+
+    z-index: 1000;
 }
 
 .menu-bar.active{
