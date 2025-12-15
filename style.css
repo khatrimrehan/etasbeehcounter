@@ -443,7 +443,7 @@ footer {
 }
 
 #svg{
-    fill: rgb(139, 139, 139);
+    fill: rgb(0, 0, 0);
     z-index: 999;
     height: 80px;
     width: 62px;
