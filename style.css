@@ -447,18 +447,18 @@ footer {
 #svg{
     fill: var(--back-groundcolor);
     z-index: 999;
-    height: 120px;
-    width: 120px;
+    height: 170px;
+    width: 170px;
     stroke: #ffffff;
     stroke-dasharray: 4500;
-    stroke-width: 4px;
-    animation: drow 14s ease-in-out;
+    stroke-width: 3px;
+    animation: drow 13s ease-in-out;
 }
 
 .logo-name{
     color: #fff;
     fill-opacity: 0;
-    font-size: 18;
+    font-size: 18px;
     padding-left: 12px;
     letter-spacing: 2px;
 }
