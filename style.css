@@ -452,7 +452,7 @@ footer {
     stroke: #ffffff;
     stroke-dasharray: 4500;
     stroke-width: 4px;
-    animation: drow 14s ease;
+    animation: drow 14s ease-in-out;
 }
 
 .logo-name{
