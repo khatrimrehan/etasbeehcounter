@@ -447,7 +447,7 @@ footer {
 #svg{
     fill: var(--back-groundcolor);
     z-index: 999;
-    height: 90px;
+    height: 120px;
     width: 120px;
     stroke: #ffffff;
     stroke-dasharray: 4500;
