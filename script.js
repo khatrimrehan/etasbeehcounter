@@ -37,6 +37,7 @@ function lightmode() {
     rSetBtn.src = "reset-dark.png"
     finGer.src = "finger-black.svg"
     lightThemeLogo.src = "sun.png"
+    lighT.textContent = "Dark Theme : Off"
     var NAME = document.getElementById("changemode")
     NAME.className = "lightmode"
   }
@@ -46,6 +47,8 @@ function lightmode() {
     finGer.src =
       "streamline--one-finger-tap-remix.svg"
     lightThemeLogo.src = "moon.png"
+
+    lighT.textContent = "Dark Theme : On"
 
     var NAME = document.getElementById("changemode")
     NAME.className = "lightmod"

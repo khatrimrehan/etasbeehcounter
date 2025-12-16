@@ -203,9 +203,6 @@ nav {
  border-radius: 20px;
  border: 2px solid var(--menubar-outline);
 
-
-
-
  padding-top: 60px;
  margin-top: 20px;
  padding-bottom: 30px;
@@ -221,10 +218,8 @@ nav {
  transform-origin: top right;
 
  transition: transform 750ms cubic-bezier(.14, 1.26, .80, 1);
-
-
+ 
  margin-right: 35px;
-
 
  gap: 20px;
 
