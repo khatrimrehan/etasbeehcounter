@@ -1,0 +1,14 @@
+{
+  "name": "",
+  "short_name": "",
+  "display": "standalone",
+  "background_color": "transparent",
+  "theme_color": "#121212",
+  "icons": [
+    {
+      "src": "icon-152.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
