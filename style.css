@@ -218,7 +218,7 @@ nav {
  transform-origin: top right;
 
  transition: transform 750ms cubic-bezier(.14, 1.26, .80, 1);
- 
+
  margin-right: 35px;
 
  gap: 20px;
@@ -330,6 +330,7 @@ nav {
  align-items: center;
  justify-content: start;
  padding-top: 110px;
+ z-index: 999;
 }
 
 .line0 {
@@ -433,7 +434,6 @@ footer {
  left: 50%;
  transform: translateX(-50%);
  line-height: 13px;
-
 }
 
 .container {

@@ -75,6 +75,11 @@
   margin-right: 20px;
   width: 91.6vw;
  }
+
+  .main2 {
+  padding-top: 270px;
+ }
+
 }
 
 @media (max-width: 460px) {
@@ -151,9 +156,6 @@
   padding-top: 180px;
  }
 
- .main2 {
-  padding-top: 270px;
- }
 
  .menu-bar{
   height: 80vh;
