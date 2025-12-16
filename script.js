@@ -10,7 +10,7 @@ let incrimenTAnywhere = document.getElementById("incanywhere")
 let AnyWhere = document.getElementById("anywhere")
 let menuBar = document.getElementById("menubar")
 let lightThemeLogo = document.getElementById("lightthemelogo")
-
+let linEoNe = document.getElementById("reset-btn")
 
 
 
@@ -91,6 +91,10 @@ function minuses() {
 function lineoNe() {
   count = 0
   countEL.textContent = 0
+
+
+  linEoNe.style.transform += "rotate(360deg)" 
+
 }
 
 

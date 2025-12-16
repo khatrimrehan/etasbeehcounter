@@ -377,7 +377,12 @@ nav {
 .reset-btn img {
 
  height: 24px;
+ transition: all 400ms ease-in-out;
+
+ transform: rotate(0deg);
 }
+
+
 
 .reset {
  color: var(--text-color-reset);
