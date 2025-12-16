@@ -136,6 +136,17 @@
 
 }
 
+@media (max-width: 416px) {
+
+
+    .main1{
+        padding-top: 180px;
+    }
+    .main2{
+        padding-top: 170px;
+    }
+
+}
 
 @media (max-width: 376px) {
 
