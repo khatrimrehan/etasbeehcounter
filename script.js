@@ -9,6 +9,7 @@ let minUs = document.getElementById("hahaha")
 let incrimenTAnywhere = document.getElementById("incanywhere")
 let AnyWhere = document.getElementById("anywhere")
 let menuBar = document.getElementById("menubar")
+let lightThemeLogo = document.getElementById("lightthemelogo")
 
 
 
@@ -30,19 +31,27 @@ function vibrate() {
   }
 }
 function lightmode() {
-  loGo.src = "sparkel-dark.png"
-  rSetBtn.src = "reset-dark.png"
-  finGer.src = "finger-black.svg"
-  var NAME = document.getElementById("changemode")
-  NAME.className = "lightmode"
-}
-function darkmode() {
-  loGo.src = "fluent--sparkle-16-regular (1).png"
-  rSetBtn.src = "resetlogo.png"
-  finGer.src =
-    "streamline--one-finger-tap-remix.svg"
-  var NAME = document.getElementById("changemode")
-  NAME.className = "lightmod"
+
+  if (isOpen) {
+    loGo.src = "sparkel-dark.png"
+    rSetBtn.src = "reset-dark.png"
+    finGer.src = "finger-black.svg"
+    lightThemeLogo.src = "sun.png"
+    var NAME = document.getElementById("changemode")
+    NAME.className = "lightmode"
+  }
+  else {
+    loGo.src = "fluent--sparkle-16-regular (1).png"
+    rSetBtn.src = "resetlogo.png"
+    finGer.src =
+      "streamline--one-finger-tap-remix.svg"
+    lightThemeLogo.src = "moon.png"
+
+    var NAME = document.getElementById("changemode")
+    NAME.className = "lightmod"
+  }
+
+  isOpen = !isOpen
 }
 
 let count = 0
@@ -50,27 +59,27 @@ let count = 0
 let countEL = document.getElementById("count-el")
 
 function incrimentAnywhere() {
-  
+
   count += 1
   countEL.textContent = count
-  
+
 }
 
 function countany() {
-  
+
   count += 1
   countEL.textContent = count
- 
+
 }
 
 
 function minuses() {
 
   if (count > 0) {
-    count -= 1 
+    count -= 1
 
   }
-countEL.textContent = count
+  countEL.textContent = count
 }
 
 
@@ -87,13 +96,13 @@ let isOpen = false;
 
 function menubtn() {
 
-  if (isOpen){
+  if (isOpen) {
     menuBar.style.transform = "translate(120%) scale(0.75)";
     menuBar.style.display = "flex"
-  } else  {
-    menuBar.style.transform = "translate(0%)";    
+  } else {
+    menuBar.style.transform = "translate(0%)";
 
-    }
-  
+  }
+
   isOpen = !isOpen;
 }

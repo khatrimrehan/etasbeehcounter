@@ -11,15 +11,14 @@ body {
 }
 
 
-.lightmode {
-    transition: all 0.4s ease-out, color 0.2s ease-out;
+.lightmode , .lightmod , .menu-bar{
+    transition: background 0.2s ease;
 }
 
-.lightmod {
-    transition: all 0.4s ease-in, color 0.2s ease-in;
-}
 
 :root {
+    --menubar-outline: #ffffff1d;
+    --menubar-linear-gradient: linear-gradient(110deg, #1a1a1a, #101010);
     --back-groundcolor: #121212;
     --text-color: #ffffff;
     --text-color-reset: #ffffff;
@@ -31,6 +30,9 @@ body {
 }
 
 .lightmode {
+    --menubar-outline: #0000003c;
+
+    --menubar-linear-gradient: linear-gradient(110deg, #d4d4d4, #d0d0d0);
     --back-groundcolor: #d0d0d0;
     --text-color: #000000;
     --text-color-reset: #000000;
@@ -127,11 +129,11 @@ nav {
 
 .right {
     display: flex;
-    gap: 13px;
+    gap: 7px;
 }
 
 .pt-1 img {
-    height: 42px;
+    height: 36px;
 }
 
 .prt-2 {
@@ -141,9 +143,7 @@ nav {
     padding: 5px;
 }
 
-#light {
-    transition: all 1s ease-in-out;
-}
+
 
 .prt-2 i {
     display: flex;
@@ -199,7 +199,7 @@ nav {
     height: 80vh;
 
     border-radius: 20px;
-    border: 2px solid #ffffff1d;
+    border: 2px solid var(--menubar-outline);
 
 
 
@@ -213,8 +213,7 @@ nav {
 
     background-color: transparent;
 
-    background: linear-gradient(110deg, #1a1a1a, #101010);
-    overflow: hidden;
+    background: var(--menubar-linear-gradient);
     transform: translateX(100%) scale(0.75);
 
     transform-origin: top right;
@@ -253,21 +252,21 @@ nav {
 .bottom {
     display: flex;
     padding-bottom: 15px;
-    gap: 7px;
+    gap: 5px;
 }
 
 .btm-text {
-    color: #fff;
+    color: var(--text-color);
     font-size: 25px;
 }
 
 .theme-logo img {
-    height: 32px;
+    height: 27.5px;
 }
 
 .theme-logo i {
     padding-top: 10px;
-    color: white;
+    color: var(--text-color);
     font-size: 25px;
 }
 
@@ -277,7 +276,7 @@ nav {
     list-style: none;
 
     & li a {
-        color: white;
+        color: var(--text-color);
         font-size: 25px;
         text-decoration: none;
     }
@@ -288,10 +287,11 @@ nav {
     align-items: center;
     text-align: center;
     gap: 23px;
+
 }
 
 .ul-prt-1 i {
-    color: #fff;
+    color: var(--text-color);
     font-size: 25px;
     padding-bottom: 10px;
 }
@@ -316,7 +316,8 @@ nav {
     justify-content: center;
     gap: 10px;
     background-color: transparent;
-    height: 100%;
+    height: fit-content;
+    padding-top: 130px;
 
     width: 100%;
 
@@ -330,7 +331,7 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: start;
-    padding-top: 40px;
+    padding-top: 110px;
 }
 
 .line0 {
@@ -366,7 +367,7 @@ nav {
     justify-content: center;
     gap: 6px;
     cursor: pointer;
-    
+
 }
 
 .reset-btn img {
@@ -482,4 +483,3 @@ footer {
         stroke-dashoffset: 0;
     }
 }
-
