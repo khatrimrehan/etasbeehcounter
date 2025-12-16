@@ -33,19 +33,19 @@ function vibrate() {
 function lightmode() {
 
   if (isOpen) {
-    loGo.src = "sparkel-dark.png"
-    rSetBtn.src = "reset-dark.png"
-    finGer.src = "finger-black.svg"
-    lightThemeLogo.src = "sun.png"
+    loGo.src = "img/sparkel-dark.png"
+    rSetBtn.src = "img/reset-dark.png"
+    finGer.src = "img/finger-black.svg"
+    lightThemeLogo.src = "img/sun.png"
     var NAME = document.getElementById("changemode")
     NAME.className = "lightmode"
   }
   else {
-    loGo.src = "fluent--sparkle-16-regular (1).png"
-    rSetBtn.src = "resetlogo.png"
+    loGo.src = "img/fluent--sparkle-16-regular (1).png"
+    rSetBtn.src = "img/resetlogo.png"
     finGer.src =
-      "streamline--one-finger-tap-remix.svg"
-    lightThemeLogo.src = "moon.png"
+      "img/streamline--one-finger-tap-remix.svg"
+    lightThemeLogo.src = "img/moon.png"
 
     var NAME = document.getElementById("changemode")
     NAME.className = "lightmod"
