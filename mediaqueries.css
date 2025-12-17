@@ -1,29 +1,10 @@
 @media (max-width: 1200px) {
 
-.about-us-text {
-font-size: 23px;
-   
 
-}
-.textabout {
-    font-size: 16px;
-     line-height: 22px;
-}
 
 }
 
 @media (max-width: 860px) {
-
-.about-us-text {
-font-size: 23px;
-    padding-bottom: 28px;
-   
-
-}
-.textabout {
-    font-size: 14px;
-     line-height: 22px;
-}
 
 }
 
@@ -70,18 +51,6 @@ font-size: 23px;
 
 
 
-.about-us-text {
-font-size: 23px;
-    padding-bottom: 28px;
-   
-
-}
-.textabout {
-    font-size: 12px;
-     line-height: 16px;
-    padding-inline: 20px;
-    
-}
 
 
  .menu-bar {
@@ -125,9 +94,6 @@ font-size: 23px;
   height: 75vh;
  }
 
- .about-us-text {
-font-size: 18px;
-   
 
 }
 
@@ -137,14 +103,14 @@ font-size: 18px;
 }
 
  .textabout {
-    font-size: 15px;
     line-height: 20px;
  }
   .main2 {
   padding-top: 200px;
  }
+ 
 
-}
+
 
 @media (max-width: 460px) {
 
@@ -153,12 +119,10 @@ font-size: 18px;
   gap: 59px;
 
  }
- .ournames {
-    bottom: 30%;
- }
+ 
 
  .brand{
-    font-size: 12px;
+    font-size: 15px;
  }
 
  & .minus,
@@ -255,10 +219,41 @@ font-size: 18px;
   padding-bottom: 7px;
  }
 
+ .about-us{
+  height: 79vh;
+
+  top: 11%;
+  right: 3%;
 
 
 
+ }
+.about-us-text {
+    font-size: 20px;
+    padding-block: 27px;
+}
+.textabout{
+    padding-inline: 20px;
+    line-height: 16px;
+}
 
+.about-us-text1 {
+
+padding-top: 2px;
+
+
+}
+
+.brand{
+    font-size: 12px;
+}
+
+.ournames { 
+    bottom: 27%;
+}
+.backarrow{
+    top: 5%;
+}
 
 }
 

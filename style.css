@@ -597,7 +597,7 @@ font-family: -apple-system, "Apple-Pro";
     display: flex;
     flex-direction: column;
 
-    font-size: 18.5px;
+    font-size: clamp(10px , 2.6vw , 18.5px);
     line-height: 28px;
     letter-spacing: 1px;
 
