@@ -556,7 +556,7 @@ font-family: -apple-system, "Apple-Pro";
     flex-direction: column;
     
     top: 9.8%;
-    right: 10%;
+    right: 3.9%;
 
     transform: translateX(-130%) scale(0.75);
     transform-origin: top right;
@@ -568,7 +568,7 @@ font-family: -apple-system, "Apple-Pro";
 
     position: absolute;
     height: 79.5vh;
-    width: 80vw;
+    width: 93vw;
     background: var(--menubar-linear-gradient);
     color: #fff;
 
@@ -604,7 +604,7 @@ font-family: -apple-system, "Apple-Pro";
     padding-inline: 60px;
     text-align: justify;
 
-    gap: 230px;
+ 
 
 
 }
@@ -634,7 +634,8 @@ font-family: -apple-system, "Apple-Pro";
 .ournames {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    position: absolute;
+    bottom: 7%;
 }
 
 .brand {
