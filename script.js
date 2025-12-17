@@ -128,3 +128,7 @@ function back() {
   menuBar.style.transform = "translate(0%)";
   aboutUs.style.transform = "translate(-130%) scale(0.75)"
 }
+
+function Home() {
+  menuBar.style.transform = "translate(120%) scale(0.75)";
+}
