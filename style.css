@@ -568,7 +568,8 @@ font-family: -apple-system, "Apple-Pro";
 
     position: absolute;
     height: 79.5vh;
-    width: 93vw;
+    width: 92vw;
+    margin-right: 2px;
     background: var(--menubar-linear-gradient);
     color: #fff;
 
