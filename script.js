@@ -93,14 +93,9 @@ function lineoNe() {
   count = 0
   countEL.textContent = 0
 
+  linEoNe.style.transform += "rotate(360deg)"
 
-  if (countEL > 0) {
-     linEoNe.style.transform += "rotate(360deg)" 
-  }
-  else {
-     linEoNe.style.transform = "none"  
-  }
-  
+
 
 }
 
@@ -123,7 +118,7 @@ function menubtn() {
 
 function about() {
   menuBar.style.transform = "translate(120%) scale(0.75)";
-  
+
   aboutUs.style.transform = "translate(0%)"
 }
 function back() {
