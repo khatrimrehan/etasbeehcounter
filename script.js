@@ -130,5 +130,6 @@ function back() {
 }
 
 function Home() {
+  aboutUs.style.transform = "translate(-130%) scale(0.75)"
   menuBar.style.transform = "translate(120%) scale(0.75)";
 }
