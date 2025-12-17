@@ -102,9 +102,7 @@
     font-size: 24px;
 }
 
- .textabout {
-    line-height: 20px;
- }
+ 
   .main2 {
   padding-top: 200px;
  }
@@ -246,14 +244,18 @@ padding-bottom: 10px;
 }
 
 .brand{
-    font-size: 12px;
+    font-size: 12px; 
+    right: 5%;
 }
 
 .ournames { 
     bottom:15%;
+   
+
 }
 .backarrow{
-    top: 5%;
+    top: 4.8%;
+    left: 5%;
 }
 
 }
