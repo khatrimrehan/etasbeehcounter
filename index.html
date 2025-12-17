@@ -25,8 +25,7 @@
 </head>
 
 <script>
-  if ("serviceWorker" in navigator)
-   {
+  if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("service-worker.js")
       .then(() => console.log("Service Worker registered"))
       .catch(err => console.log("SW registration failed", err));
@@ -36,7 +35,7 @@
 
 <body class="lightmod" id="changemode">
 
- <!--  <div class="container" id="cnt">
+  <!--  <div class="container" id="cnt">
     <div class="loading-page">
 
       <?xml version="1.0" encoding="iso-8859-1"?>
@@ -151,7 +150,7 @@
         <div class="line1" id="line1" onclick="lineoNe()">
 
           <div class="reset-btn">
-            <img id="reset-btn" src="resetlogo.png" alt="">
+            <i id="reset-btn" class="ri-loop-left-line"></i>
           </div>
           <div class="reset">Reset</div>
 
@@ -202,19 +201,20 @@
 
       <ul>
 
-        <li class="list-1">
+        <li class="list-1"
+        onclick="about()">
           <div class="ul-prt-1"><i class="ri-information-2-line"></i></div>
-          <div class="ul-prt-2"><a href="">About Us</a></div>
+          <div class="ul-prt-2"><a>About Us</a></div>
         </li>
 
       </ul>
     </div>
 
-    <div class="bottom" onclick="lightmode()" >
-      <div class="btm-text"  id="light">
+    <div class="bottom" onclick="lightmode()">
+      <div class="btm-text" id="light">
         Dark Theme : On
       </div>
-      <div class="theme-logo" >
+      <div class="theme-logo">
         <img id="lightthemelogo" src="moon.png" alt="">
       </div>
     </div>
@@ -224,17 +224,65 @@
 
   </section>
 
+  <section class="about-us" id="about-us" >
+
+    <div class="about-us-text">
+      About Us
+    </div>
+
+    <div class="textabout">
+
+      <div>
+      <div class="about-us-text1">
+        - Tasbeeh Counter is created to support your spiritual journey by making dhikr easier and more
+        accessible. Whether at home or on the go, this digital tasbeeh helps you stay connected to
+        remembrance with simplicity and peace.
+      </div>
+      <div class="about-us-text2">
+        - Our brand specializes in UI/UX design and Development, focusing on building thoughtful, user -
+        centered digital experiences across different products and platforms. Tasbeeh Counter is one of
+        our creations - designed with the same principles of clarity, simplicity, and purpose that define all
+        our work.
+      </div>
+      </div>
+
+
+      <div class="ournames">
+        <div class="mk">
+          <div class="lin1">
+            Muhammad Kashif Khatri
+          </div>
+          <div class="lin2">
+            (Designer)
+          </div>
+        </div>
+        <div class="rk">
+          <div class="lin1">
+            Muhammad Rehan Khatri
+          </div>
+          <div class="lin2">
+            (Developer)
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="brand">
+      -TheDzinsBrand ✨
+    </div>
+
+    <div class="backarrow" id="backarrow" onclick="back()">
+      <i class="ri-arrow-left-s-line"></i>
+    </div>
+
+  </section>
+
   <footer>
     <div class="text">
       Designed
       with ❤️ By TheDzinsBrand
       | &#169; All Rights Reserved
     </div>
-
-
-
-
-
   </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"

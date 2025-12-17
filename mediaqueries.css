@@ -103,8 +103,9 @@
   font-size: 5.5rem;
  }
 
- .reset-btn img {
-  height: 24.5px;
+ .reset-btn i {
+  color: #ffffff;
+  font-size: 14px;
  }
 
  .line1 {
@@ -112,7 +113,6 @@
  }
 
  .reset {
-
   font-size: 1.27rem;
   padding-bottom: 0.5px;
  }

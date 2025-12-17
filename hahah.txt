@@ -1,0 +1,12 @@
+- Tasbeeh Counter is created to support your spiritual journey by making dhikr easier and more
+accessible. Whether at home or on the go, this digital tasbeeh helps you stay connected to
+remembrance with simplicity and peace.
+- Our brand specializes in UI/UX design and Development, focusing on building thoughtful, user-
+centered digital experiences across different products and platforms. Tasbeeh Counter is one of
+our creations—designed with the same principles of clarity, simplicity, and purpose that define all
+our work.
+
+
+back arrow
+
+<i class="ri-arrow-left-s-line"></i>

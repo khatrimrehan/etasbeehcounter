@@ -11,7 +11,8 @@ let AnyWhere = document.getElementById("anywhere")
 let menuBar = document.getElementById("menubar")
 let lightThemeLogo = document.getElementById("lightthemelogo")
 let linEoNe = document.getElementById("reset-btn")
-
+let aboutUs = document.getElementById("about-us")
+let backArrow = document.getElementById("backarrow")
 
 
 const ignoreElements = [rSetBtn, finGer, loGo, lighT, cliCked, minUs, incrimenTAnywhere, menuBar, AnyWhere].filter(Boolean);
@@ -93,7 +94,13 @@ function lineoNe() {
   countEL.textContent = 0
 
 
-  linEoNe.style.transform += "rotate(360deg)" 
+  if (countEL > 0) {
+     linEoNe.style.transform += "rotate(360deg)" 
+  }
+  else {
+     linEoNe.style.transform = "none"  
+  }
+  
 
 }
 
@@ -112,4 +119,17 @@ function menubtn() {
   }
 
   isOpen = !isOpen;
+}
+
+function about() {
+  menuBar.style.transform = "translate(120%) scale(0.75)";
+  
+  aboutUs.style.transform = "translate(0%)"
+}
+function back() {
+
+  console.log("hahaha")
+
+  menuBar.style.transform = "translate(0%)";
+  aboutUs.style.transform = "translate(-130%) scale(0.75)"
 }
