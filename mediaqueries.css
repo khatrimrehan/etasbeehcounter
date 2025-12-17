@@ -240,6 +240,7 @@
 .about-us-text1 {
 
 padding-top: 2px;
+padding-bottom: 10px;
 
 
 }
@@ -249,7 +250,7 @@ padding-top: 2px;
 }
 
 .ournames { 
-    bottom: 27%;
+    bottom: 26%;
 }
 .backarrow{
     top: 5%;
