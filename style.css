@@ -599,7 +599,7 @@ font-family: -apple-system, "Apple-Pro";
 
     font-size: clamp(10px , 2.6vw , 18.5px);
     line-height: 28px;
-    letter-spacing: 1px;
+
 
     padding-inline: 60px;
     text-align: justify;
