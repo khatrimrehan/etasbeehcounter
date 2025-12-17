@@ -611,20 +611,20 @@ font-family: -apple-system, "Apple-Pro";
 
 
 .about-us-text1 {
-    font-family: -apple-system, "Apple-Light";
+    font-family: -apple-system, "Apple-medium";
     padding-top: 10px;
     padding-bottom: 20px;
 
 }
 
 .about-us-text2 {
-    font-family: -apple-system, "Apple-Light";
+    font-family: -apple-system, "Apple-medium";
 
 }
 
 .lin1,
 .lin2 {
-    font-family: -apple-system, "Apple-Light";
+    font-family: -apple-system, "Apple-medium";
 }
 
 .lin2 {
@@ -639,7 +639,7 @@ font-family: -apple-system, "Apple-Pro";
 }
 
 .brand {
-    font-family: -apple-system, "Apple-Light";
+    font-family: -apple-system, "Apple-medium";
     font-size: 16px;
 
     position: absolute;
