@@ -42,6 +42,7 @@
 :root {
     --menubar-outline: #ffffff1d;
     --menubar-linear-gradient: linear-gradient(110deg, #1a1a1a, #101010);
+     --historybar-linear-gradient: linear-gradient(160deg, #323232 , 10%, #101010);
     --back-groundcolor: #121212;
     --text-color: #ffffff;
     --text-color-reset: #ffffff;
@@ -331,43 +332,38 @@ font-family: -apple-system, "Apple-Pro";
 }
 
 .content {
-    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:transparent;
     height: calc(100vh - 147px);
     width: 100%;
     margin: 0 auto;
     min-height: 0;
     overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    gap: 0px;
-}
 
+    
+}
+#maain{
+    background-color:transparent;
+
+}
 .main1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+   
     justify-content: center;
     gap: 13px;
     background-color: transparent;
     height: fit-content;
-    padding-top: 130px;
-    padding-bottom: 10px;
 
-    width: 100%;
+
+    width: fit-content;
 
 }
 
 .main2 {
-    background-color: transparent;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
-    padding-top: 110px;
-
+    width: 90%;
+    border-radius: 40px;
 }
 
 .line0 {
@@ -494,10 +490,8 @@ footer {
     border-top: 1.4px solid var(--footer-bordercolor);
     color: var(--footer-textcolor);
     padding-block: 25px;
-    position: absolute;
     bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+
     line-height: 13px;
 
 font-family: -apple-system, "Apple-Pro";
@@ -567,7 +561,7 @@ font-family: -apple-system, "Apple-Pro";
     border-radius: 20px;
 
     position: absolute;
-    height: 79.5vh;
+    height: 80vh;
     width: 92vw;
     margin-right: 2px;
     background: var(--menubar-linear-gradient);
@@ -586,10 +580,14 @@ font-family: -apple-system, "Apple-Pro";
 
 .about-us-text {
     display: flex;
-    font-size: 25px;
+    font-size: 28px;
     justify-content: center;
     align-items: center;
     padding-block: 48px;
+
+
+      width: 80%;
+    margin-inline: auto;
 
     font-family: -apple-system, "Apple-medium";
 }
@@ -597,15 +595,15 @@ font-family: -apple-system, "Apple-Pro";
 .textabout {
     display: flex;
     flex-direction: column;
+   
+    line-height: 25px;
 
-    font-size: clamp(11.5px , 2.6vw , 19.5px);
-    line-height: 30px;
+    font-size: clamp(11.5px , 3.0vw , 19.5px);
 
-    padding-inline: 190px;
+    width: 80%;
+    margin-inline: auto;
     text-align: justify;
 
-    word-spacing: 1px;
-    letter-spacing: 1px;
 
 
 }
@@ -644,16 +642,16 @@ font-family: -apple-system, "Apple-Pro";
     font-size: clamp(11.5px , 2.6vw , 19.5px);;
 
     position: absolute;
-    right: 13%;
+    right: 8%;
     bottom: 7%;
 }
 
 
 .backarrow{
-    position: absolute;
+    position: fixed;
 
-    left: 12.5%;
-    top: 7%;
+    left: 10%;
+    top: 8%;
 }
 
 .backarrow i{

@@ -102,6 +102,8 @@ function lineoNe() {
 
 
 let isOpen = false;
+let isOpn = false;
+
 
 function menubtn() {
 
@@ -114,16 +116,20 @@ function menubtn() {
   }
 
   isOpen = !isOpen;
+
+
 }
 
 function about() {
   menuBar.style.transform = "translate(120%) scale(0.75)";
 
   aboutUs.style.transform = "translate(0%)"
+
+  
 }
 function back() {
 
-  console.log("hahaha")
+
 
   menuBar.style.transform = "translate(0%)";
   aboutUs.style.transform = "translate(-130%) scale(0.75)"

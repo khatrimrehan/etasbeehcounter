@@ -35,7 +35,7 @@
 
 <body class="lightmod" id="changemode">
 
-  <!--  <div class="container" id="cnt">
+<div class="container" id="cnt">
     <div class="loading-page">
 
       <?xml version="1.0" encoding="iso-8859-1"?>
@@ -94,7 +94,7 @@
     <div class="name-container">
       <div class="logo-name">TASBEEH COUNTER</div>
     </div>
-  </div>-->
+  </div>
 
 
   <nav>
@@ -133,9 +133,9 @@
     </div>
   </nav>
 
-  <section onclick="vibrate()">
+  <section  id="maain">
 
-    <div class="content" id="anywhere">
+    <div class="content" id="anywhere" onclick="vibrate()" >
 
       <div class="main1" id="incanywhere">
 
@@ -157,9 +157,9 @@
         </div>
       </div>
 
-      <div id="countany" class="main2" onclick="countany()">
+      <div id="countany" class="main2" onclick="countany()" >
 
-        <div class="line3">
+        <div class="line3" >
 
           <div class="finger">
 
@@ -172,6 +172,9 @@
 
         </div>
       </div>
+    </div>
+
+
   </section>
 
   <section class="menu-bar" id="menubar">
@@ -201,8 +204,7 @@
 
       <ul>
 
-        <li class="list-1"
-        onclick="about()">
+        <li class="list-1" onclick="about()">
           <div class="ul-prt-1"><i class="ri-information-2-line"></i></div>
           <div class="ul-prt-2"><a>About Us</a></div>
         </li>
@@ -224,7 +226,7 @@
 
   </section>
 
-  <section class="about-us" id="about-us" >
+  <section class="about-us" id="about-us">
 
     <div class="about-us-text">
       About Us
@@ -233,17 +235,17 @@
     <div class="textabout">
 
       <div>
-      <div class="about-us-text1">
-        - Tasbeeh Counter is created to support your spiritual journey by making dhikr easier and more
-        accessible. Whether at home or on the go, this digital tasbeeh helps you stay connected to
-        remembrance with simplicity and peace.
-      </div>
-      <div class="about-us-text2">
-        - Our brand specializes in UI/UX design and Development, focusing on building thoughtful, user -
-        centered digital experiences across different products and platforms. Tasbeeh Counter is one of
-        our creations - designed with the same principles of clarity, simplicity, and purpose that define all
-        our work.
-      </div>
+        <div class="about-us-text1">
+          - Tasbeeh Counter is created to support your spiritual journey by making dhikr easier and more
+          accessible. Whether at home or on the go, this digital tasbeeh helps you stay connected to
+          remembrance with simplicity and peace.
+        </div>
+        <div class="about-us-text2">
+          - Our brand specializes in UI/UX design and Development, focusing on building thoughtful, user -
+          centered digital experiences across different products and platforms. Tasbeeh Counter is one of
+          our creations - designed with the same principles of clarity, simplicity, and purpose that define all
+          our work.
+        </div>
       </div>
 
 
@@ -277,13 +279,27 @@
 
   </section>
 
-  <footer>
+  <section class="History">
+    
+
+  </section>
+
+
+
+
+
+
+
+ <footer>
     <div class="text">
       Designed
       with ❤️ By TheDzinsBrand
       | &#169; All Rights Reserved
     </div>
   </footer>
+
+
+ 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
     integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
