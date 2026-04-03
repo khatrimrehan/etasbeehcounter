@@ -62,6 +62,7 @@ let count = 0
 
 let countEL = document.getElementById("count-el")
 
+
 let savedCount = localStorage.getItem("tasbeehCount");
 
 if (savedCount !== null) {
@@ -81,16 +82,39 @@ function countany() {
   countEL.textContent = count
 
   localStorage.setItem("tasbeehCount", count);
+=======
+function incrimentAnywhere() {
+
+  count += 1
+  countEL.textContent = count
+
+}
+
+function countany() {
+
+  count += 1
+  countEL.textContent = count
+
+>>>>>>> master
 }
 
 
 function minuses() {
+
   if (count > 0) {
     count -= 1
   }
 
   countEL.textContent = count
   localStorage.setItem("tasbeehCount", count);
+=======
+
+  if (count > 0) {
+    count -= 1
+
+  }
+  countEL.textContent = count
+>>>>>>> master
 }
 
 
@@ -100,9 +124,16 @@ function lineoNe() {
   count = 0
   countEL.textContent = 0
 
+
   localStorage.setItem("tasbeehCount", count);
 
   linEoNe.style.transform += "rotate(360deg)"
+=======
+  linEoNe.style.transform += "rotate(360deg)"
+
+
+
+>>>>>>> master
 }
 
 
