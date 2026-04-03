@@ -1,0 +1,300 @@
+@media (max-width: 1200px) {
+    .textabout {
+        width: 90%;
+    }
+
+.about-us-text {
+        width: 90%;
+
+}
+
+.backarrow{
+    left: 5%;
+}
+}
+
+@media (max-width: 860px) {
+    
+}
+
+@media (max-width: 745px) {
+
+    
+    
+
+    
+
+
+
+}
+
+@media (max-width: 480px) {
+
+    .upper {
+        gap: 20px;
+    }
+
+    .bottom {
+        padding-bottom: 10;
+    }
+
+    .list-1 {
+        gap: 15px;
+    }
+
+    .menu-bar ul li a,
+    .btm-text,
+    .theme-logo i {
+        font-size: 18px;
+    }
+
+    .ul-prt-1 i {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 620px) {
+    .navbar {
+        padding-inline: 15px;
+        padding-bottom: 10px;
+        padding-top: 15px;
+    }
+
+
+    .main2{
+        padding-block: 50px;
+    background-color: rgba(231, 231, 231, 0.025);
+
+    }
+
+
+    .textabout {
+        width: 90%;
+    }
+
+
+    .about-us-text {
+        padding-block: 32px;
+    }
+
+    .menu-bar {
+
+        left: 20px;
+
+        margin-right: 20px;
+        width: 93vw;
+    }
+
+    
+
+    .prt-1 {
+        display: none;
+    }
+
+    .right,
+    .left {
+        gap: 5px;
+    }
+
+    .text {
+        display: none;
+        padding-block: 14px;
+        font-size: 14px;
+        line-height: 10px;
+    }
+
+
+.backarrow i{
+    font-size: 30px;
+}
+
+.backarrow{
+    top: 4.5%;
+}
+
+}
+
+@media (max-width: 490px) {
+    .menu-bar {
+        left: 18px;
+
+        margin-right: 20px;
+        width: 91.6vw;
+    }
+
+    .menu-bar {
+        height: 75vh;
+    }
+
+    .about-us {
+        height: 75vh;
+    }
+
+
+}
+
+.backarrow {
+    font-size: 24px;
+}
+
+.textabout {
+    line-height: 25px;
+}
+
+
+
+
+
+
+@media (max-width: 460px) {
+
+    .line0 {
+        padding-top: 0px;
+        gap: 59px;
+
+    }
+
+
+
+
+    .brand {
+        font-size: 15px;
+    }
+
+    & .minus,
+    .plus {
+        font-size: 4.5rem;
+    }
+
+    & .num {
+        font-size: 5.5rem;
+    }
+
+ 
+    .line1 {
+        padding-right: 14px;
+    }
+
+    .reset {
+        font-size: 1.27rem;
+        padding-bottom: 0.5px;
+    }
+
+
+    .line3 {
+        gap: 20px;
+    }
+
+    .finger img {
+        height: 80px;
+    }
+
+    .finger-text {
+        font-size: 16px;
+    }
+
+    .pt-1 img {
+        height: 38px;
+    }
+
+    .pt-2 {
+        font-size: 22px;
+    }
+
+    .prt-2 img {
+        height: 30px;
+
+    }
+
+    .text {
+        font-size: 11px;
+        letter-spacing: 0px;
+    }
+
+
+}
+
+@media (max-width: 416px) {
+
+
+    
+
+
+    .textabout {
+        line-height: 20px;
+    }
+
+}
+
+@media (max-width: 376px) {
+
+
+
+    .content {
+        gap: 1px;
+
+    height: calc(100vh - 102px);
+
+    }
+
+
+
+
+
+    .menu-bar {
+
+        margin-top: 25px;
+        height: 79vh;
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-bottom: 7px;
+    }
+
+    .about-us {
+        height: 79vh;
+        right: 2.3%;
+        top: 10.5%;
+
+
+
+    }
+
+    .about-us-text {
+        font-size: 20px;
+        padding-block: 27px;
+    }
+
+
+    .about-us-text1 {
+
+        padding-top: 2px;
+        padding-bottom: 10px;
+
+
+    }
+
+    .textabout {
+        line-height: 16px;
+    }
+
+    .brand {
+        font-size: 12px;
+        right: 5%;
+    }
+
+.backarrow{
+    top: 6%;
+}
+
+  
+
+.backarrow i{
+    font-size: 25px;
+}
+
+
+}
+
+@media (max-width: 361px) {}
+
+@media (max-width: 350px) {}
