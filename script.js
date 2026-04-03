@@ -85,3 +85,11 @@ function countany() {
 
 }
 
+function lineoNe() {
+  count = 0
+  countEL.textContent = 0
+
+  localStorage.setItem("tasbeehCount", count);
+
+  linEoNe.style.transform += "rotate(360deg)"
+}
