@@ -93,3 +93,30 @@ function lineoNe() {
 
   linEoNe.style.transform += "rotate(360deg)"
 }
+
+let isOpen = false;
+let isOpn = false;
+function menubtn() {
+  if (isOpen)
+  {
+    menuBar.style.transform = "translate(120%) scale(0.75)"; menuBar.style.display = "flex"
+    
+  } else
+  {
+    menuBar.style.transform = "translate(0%)";
+  }
+  isOpen = !isOpen;
+}
+function about() {
+  menuBar.style.transform = "translate(120%) scale(0.75)"; aboutUs.style.transform = "translate(0%)"
+}
+function back()
+{
+  menuBar.style.transform = "translate(0%)";
+  aboutUs.style.transform = "translate(-130%) scale(0.75)"
+}
+
+function Home()
+{
+  aboutUs.style.transform = "translate(-130%) scale(0.75)"; menuBar.style.transform = "translate(120%) scale(0.75)";
+}
