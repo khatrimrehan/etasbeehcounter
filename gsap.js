@@ -29,7 +29,7 @@ if (!hasVisited) {
   document.querySelector(".container").style.display = "none";
 
 }
-=======
+
 gsap.fromTo(
   ".container",
   { autoAlpha: 1 },
@@ -58,4 +58,4 @@ let cnT = document.getElementById("cnt")
 
 
     
->>>>>>> master
+
