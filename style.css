@@ -293,7 +293,6 @@ nav {
     font-size: 25px;
 
     font-family: -apple-system, "Apple-Pro";
-    font-family: -apple-system, "Apple-Pro";
 
 }
 
@@ -317,7 +316,6 @@ nav {
         font-size: 25px;
         text-decoration: none;
 
-        font-family: -apple-system, "Apple-Pro";
         font-family: -apple-system, "Apple-Pro";
 
     }
@@ -357,13 +355,6 @@ nav {
 
 }
 
-
-
-#maain {
-    background-color: transparent;
-
-}
-
 .main1 {
 
     justify-content: center;
@@ -391,15 +382,6 @@ nav {
 }
 
 
-.plus {
-    cursor: pointer;
-    font-size: 6.5rem;
-    opacity: 0.75;
-
-    font-family: -apple-system, "Apple-Pro";
-
-
-}
 
 .num {
     cursor: default;
@@ -419,8 +401,7 @@ nav {
     padding: 13px 10px;
     width: 32%;
 }
-
-.img svg {
+.img svg{
     height: 14px;
     margin-right: 20px;
     cursor: pointer;
@@ -442,17 +423,6 @@ input {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    font-family: -apple-system, "Apple-Pro";
-
-}
-
-.minus {
-    cursor: pointer;
-    font-size: 6.5rem;
-    opacity: 0.75;
-
-    font-family: -apple-system, "Apple-Pro";
-
 }
 
 .line1 {
@@ -461,7 +431,6 @@ input {
     justify-content: center;
     padding-right: 16.1px;
     gap: 10px;
-    gap: 6px;
     cursor: pointer;
 
 }
@@ -479,15 +448,6 @@ input {
     height: 26px;
     transition: all 300ms ease-in-out;
     transform: rotate(0deg);
-
-}
-
-.reset-btn i {
-    color: #fff;
-    font-size: 20px;
-    transition: all 500ms ease-in;
-    transform: rotate(0deg);
-
 }
 
 
@@ -496,7 +456,6 @@ input {
     color: var(--text-color-reset);
     font-size: 1.6rem;
 
-    font-family: -apple-system, "Apple-Pro";
     font-family: -apple-system, "Apple-Pro";
 
 }
@@ -532,7 +491,6 @@ input {
     text-align: center;
 
     font-family: -apple-system, "Apple-Pro";
-    font-family: -apple-system, "Apple-Pro";
 
 }
 
@@ -558,7 +516,6 @@ footer {
 
     line-height: 13px;
 
-    font-family: -apple-system, "Apple-Pro";
     font-family: -apple-system, "Apple-Pro";
 
 }
@@ -620,187 +577,164 @@ footer {
     display: flex;
     flex-direction: column;
 
+    top: 9.8%;
+    right: 3.9%;
+
+    transform: translateX(-130%) scale(0.75);
+    transform-origin: top right;
+
+    transition: transform 750ms cubic-bezier(.14, 1.26, .80, 1);
+
+
+    border-radius: 20px;
+
+    position: absolute;
+    height: 80vh;
+    width: 92vw;
+    margin-right: 2px;
+    background: var(--menubar-linear-gradient);
+    color: #fff;
+
+    z-index: 1;
+
+    border: 2px solid var(--menubar-outline);
+
+
 }
-    .about-us {
-        display: flex;
-        flex-direction: column;
 
-        top: 9.8%;
-        right: 3.9%;
+.about-us.active {
+    transform: translateX(0) scale(1);
+}
 
-        transform: translateX(-130%) scale(0.75);
-        transform-origin: top right;
-
-        transition: transform 750ms cubic-bezier(.14, 1.26, .80, 1);
-
-
-        border-radius: 20px;
-
-        position: absolute;
-        height: 80vh;
-        width: 92vw;
-        margin-right: 2px;
-        background: var(--menubar-linear-gradient);
-        color: #fff;
-
-        z-index: 1;
-
-        border: 2px solid var(--menubar-outline);
+.about-us-text {
+    display: flex;
+    font-size: 28px;
+    justify-content: center;
+    align-items: center;
+    padding-block: 48px;
 
 
-    }
+    width: 80%;
+    margin-inline: auto;
 
-    .about-us.active {
-        transform: translateX(0) scale(1);
-    }
-
-    .about-us-text {
-        display: flex;
-        font-size: 28px;
-        justify-content: center;
-        align-items: center;
-        padding-block: 48px;
-
-
-        width: 80%;
-        width: 80%;
-        margin-inline: auto;
-
-        font-family: -apple-system, "Apple-medium";
-    }
+    font-family: -apple-system, "Apple-medium";
+}
 
 
 
-    .textabout {
-        display: flex;
-        flex-direction: column;
+.textabout {
+    display: flex;
+    flex-direction: column;
 
-        line-height: 25px;
+    line-height: 25px;
 
-        font-size: clamp(11.5px, 3.0vw, 19.5px);
+    font-size: clamp(11.5px, 3.0vw, 19.5px);
 
-        .textabout {
-            display: flex;
-            flex-direction: column;
-
-            line-height: 25px;
-
-            font-size: clamp(11.5px, 3.0vw, 19.5px);
-
-            width: 80%;
-            margin-inline: auto;
-            text-align: justify;
+    width: 80%;
+    margin-inline: auto;
+    text-align: justify;
 
 
 
-        }
+}
 
 
-        .about-us-text1 {
-            font-family: -apple-system, "Apple-medium";
-            padding-top: 10px;
-            padding-bottom: 20px;
+.about-us-text1 {
+    font-family: -apple-system, "Apple-medium";
+    padding-top: 10px;
+    padding-bottom: 20px;
 
-        }
+}
 
-        .about-us-text2 {
-            font-family: -apple-system, "Apple-medium";
+.about-us-text2 {
+    font-family: -apple-system, "Apple-medium";
 
-        }
+}
 
-        .his-list {
-            background: var(--historybar-linear);
-            width: 95%;
-            height: 80px;
-            margin: 0 auto;
-            border-radius: 10px;
-            border: 1px solid var(--his-outline);
-        }
+.his-list {
+    background: var(--historybar-linear);
+    width: 95%;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid var(--his-outline);
+}
 
-        .his-list {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 0 25px;
+.his-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    
+    font-size: 18px;
+}
+.recit-name , .time , .cnt {
+    font-family: "apple-medium";
+}
+.his-lft {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
 
-            font-size: 18px;
-        }
-
-        .recit-name,
-        .time,
-        .cnt {
-            font-family: "apple-medium";
-        }
-
-        .his-lft {
-            display: flex;
-            flex-direction: column;
-            gap: 2px;
-        }
-
-        .his-rght {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .cnt {
-            background-color: var(--cnt);
-            padding: 10px 22px;
-            border-radius: 20px;
-            border: 0.5px solid var(--his-outline);
-        }
-
-        .his-delt {
-            font-size: 26px;
-            color: rgb(223, 223, 223);
-        }
+.his-rght {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.cnt{
+    background-color: var(--cnt);
+    padding: 10px 22px;
+    border-radius: 20px;
+    border: 0.5px solid var(--his-outline);
+}
+.his-delt{
+    font-size: 26px;
+    color: rgb(223, 223, 223);
+}
 
 
-        .his-comp {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            overflow: hidden;
-        }
+.his-comp{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   overflow: hidden;
+}
 
-        .lin1,
-        .lin2 {
-            font-family: -apple-system, "Apple-medium";
-        }
+.lin1,
+.lin2 {
+    font-family: -apple-system, "Apple-medium";
+}
 
-        .lin2 {
-            color: #c2c2c2;
-        }
+.lin2 {
+    color: #c2c2c2;
+}
 
-        .ournames {
-            display: flex;
-            flex-direction: column;
-            position: absolute;
-            bottom: 7%;
-        }
+.ournames {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 7%;
+}
 
-        .brand {
-            font-family: -apple-system, "Apple-medium";
-            font-size: clamp(11.5px, 2.6vw, 19.5px);
-            ;
-            font-size: clamp(11.5px, 2.6vw, 19.5px);
-            ;
+.brand {
+    font-family: -apple-system, "Apple-medium";
+    font-size: clamp(11.5px, 2.6vw, 19.5px);
+    ;
 
-            position: absolute;
-            right: 8%;
-            bottom: 7%;
-        }
+    position: absolute;
+    right: 8%;
+    bottom: 7%;
+}
 
 
-        .backarrow {
-            position: fixed;
+.backarrow {
+    position: fixed;
 
-            left: 10%;
-            top: 8%;
-        }
+    left: 10%;
+    top: 8%;
+}
 
-        .backarrow i {
-            font-size: 28px;
-        }
-    }
+.backarrow i {
+    font-size: 28px;
+}

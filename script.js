@@ -37,8 +37,7 @@ cliCk.addEventListener("click", () => {
   const uniqueId = `cnt-${Date.now()}`;
   activeHistoryId = uniqueId;
 
-
-  historyBar.innerHTML += `
+    historyBar.innerHTML += `
        <div class="his-list">
 
         <div class="his-lft">
@@ -64,7 +63,6 @@ cliCk.addEventListener("click", () => {
         </div>
 
       </div>`
-
 
 })
 
@@ -137,8 +135,6 @@ htry.addEventListener("click", () => {
   hist.style.transform = "translate(0%)"
 })
 
-
-
 const ignoreElements = [rSetBtn, finGer, loGo, lighT, cliCked, minUs, incrimenTAnywhere, menuBar, AnyWhere].filter(Boolean);
 const ignoreClassElements = Array.from(cliCcked || []).filter(Boolean);
 
@@ -147,11 +143,6 @@ const ignoreClassElements = Array.from(cliCcked || []).filter(Boolean);
 
 function vibrate() {
 
-  if (navigator.vibrate) {
-    console.log("Supported: " + navigator.vibrate([100]));
-  } else {
-    console.log("Vibration NOT supported");
-  }
   if (navigator.vibrate) {
     navigator.vibrate(50);
   }
@@ -240,6 +231,7 @@ function lineoNe() {
 }
 
 
+
 let isOpen = false;
 let isOpn = false;
 function menubtn() {
@@ -274,29 +266,3 @@ function Home() {
 }
 
 
-let isOpen = false;
-let isOpn = false;
-function menubtn() {
-  if (isOpen)
-  {
-    menuBar.style.transform = "translate(120%) scale(0.75)"; menuBar.style.display = "flex"
-    
-  } else
-  {
-    menuBar.style.transform = "translate(0%)";
-  }
-  isOpen = !isOpen;
-}
-function about() {
-  menuBar.style.transform = "translate(120%) scale(0.75)"; aboutUs.style.transform = "translate(0%)"
-}
-function back()
-{
-  menuBar.style.transform = "translate(0%)";
-  aboutUs.style.transform = "translate(-130%) scale(0.75)"
-}
-
-function Home()
-{
-  aboutUs.style.transform = "translate(-130%) scale(0.75)"; menuBar.style.transform = "translate(120%) scale(0.75)";
-}
