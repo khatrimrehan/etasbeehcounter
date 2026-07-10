@@ -137,10 +137,8 @@ htry.addEventListener("click", () => {
   hist.style.transform = "translate(0%)"
 })
 
-=======
 
 
->>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
 const ignoreElements = [rSetBtn, finGer, loGo, lighT, cliCked, minUs, incrimenTAnywhere, menuBar, AnyWhere].filter(Boolean);
 const ignoreClassElements = Array.from(cliCcked || []).filter(Boolean);
 
@@ -148,15 +146,12 @@ const ignoreClassElements = Array.from(cliCcked || []).filter(Boolean);
 
 
 function vibrate() {
-<<<<<<< HEAD
 
-=======
   if (navigator.vibrate) {
     console.log("Supported: " + navigator.vibrate([100]));
   } else {
     console.log("Vibration NOT supported");
   }
->>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
   if (navigator.vibrate) {
     navigator.vibrate(50);
   }
@@ -204,7 +199,6 @@ function incrimentAnywhere() {
   count += 1
   countEL.textContent = count
 
-<<<<<<< HEAD
 
   if (activeHistoryId) {
     const activeHistoryEl = document.getElementById(activeHistoryId);
@@ -214,8 +208,6 @@ function incrimentAnywhere() {
   }
 
 
-=======
->>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
   localStorage.setItem("tasbeehCount", count);
 }
 
@@ -223,7 +215,6 @@ function countany() {
   count += 1
   countEL.textContent = count
 
-<<<<<<< HEAD
   if (activeHistoryId) {
     const activeHistoryEl = document.getElementById(activeHistoryId);
     if (activeHistoryEl) {
@@ -231,8 +222,6 @@ function countany() {
     }
   }
 
-=======
->>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
   localStorage.setItem("tasbeehCount", count);
 
 }
@@ -241,19 +230,14 @@ function lineoNe() {
   count = 0
   countEL.textContent = 0
 
-<<<<<<< HEAD
   activeHistoryId = null;
 
   inptName.value = ""
 
-=======
->>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
   localStorage.setItem("tasbeehCount", count);
 
   linEoNe.style.transform += "rotate(360deg)"
 }
-
-<<<<<<< HEAD
 
 
 let isOpen = false;
@@ -290,7 +274,6 @@ function Home() {
 }
 
 
-=======
 let isOpen = false;
 let isOpn = false;
 function menubtn() {
@@ -317,4 +300,3 @@ function Home()
 {
   aboutUs.style.transform = "translate(-130%) scale(0.75)"; menuBar.style.transform = "translate(120%) scale(0.75)";
 }
->>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757

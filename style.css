@@ -40,18 +40,12 @@
 
 
 :root {
-<<<<<<< HEAD
     --cnt: rgba(81, 81, 81, 0.219);
     --menubar-outline: #7272721d;
     --his-outline: #4f4f4fa5;
     --menubar-linear-gradient: linear-gradient(110deg, #1a1a1a, #101010);
     --historybar-linear: linear-gradient(130deg, #121212, 10%, #161616dd);
     --historybar-linear-gradient: linear-gradient(160deg, #323232, 10%, #101010);
-=======
-    --menubar-outline: #ffffff1d;
-    --menubar-linear-gradient: linear-gradient(110deg, #1a1a1a, #101010);
-     --historybar-linear-gradient: linear-gradient(160deg, #323232 , 10%, #101010);
->>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
     --back-groundcolor: #121212;
     --text-color: #ffffff;
     --text-color-reset: #ffffff;
@@ -90,10 +84,7 @@
 html,
 body {
     height: 100%;
-<<<<<<< HEAD
     width: 100%;
-=======
->>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
     touch-action: manipulation;
     /* tells browser not to zoom on double tap */
     -webkit-font-smoothing: antialiased;
@@ -301,11 +292,8 @@ nav {
     color: var(--text-color);
     font-size: 25px;
 
-<<<<<<< HEAD
     font-family: -apple-system, "Apple-Pro";
-=======
-font-family: -apple-system, "Apple-Pro";
->>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
+    font-family: -apple-system, "Apple-Pro";
 
 }
 
@@ -329,11 +317,8 @@ font-family: -apple-system, "Apple-Pro";
         font-size: 25px;
         text-decoration: none;
 
-<<<<<<< HEAD
         font-family: -apple-system, "Apple-Pro";
-=======
-font-family: -apple-system, "Apple-Pro";
->>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
+        font-family: -apple-system, "Apple-Pro";
 
     }
 }
@@ -357,18 +342,13 @@ font-family: -apple-system, "Apple-Pro";
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-<<<<<<< HEAD
     background-color: transparent;
-=======
-    background-color:transparent;
->>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
     height: calc(100vh - 147px);
     width: 100%;
     margin: 0 auto;
     min-height: 0;
     overflow: hidden;
 
-<<<<<<< HEAD
 
 }
 
@@ -377,18 +357,15 @@ font-family: -apple-system, "Apple-Pro";
 
 }
 
-.main1 {
+.main1 {}
 
-=======
-    
-}
-#maain{
-    background-color:transparent;
+#maain {
+    background-color: transparent;
 
 }
+
 .main1 {
-   
->>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
+
     justify-content: center;
     gap: 13px;
     background-color: transparent;
@@ -413,25 +390,21 @@ font-family: -apple-system, "Apple-Pro";
 
 }
 
-<<<<<<< HEAD
 
-=======
 .plus {
     cursor: pointer;
     font-size: 6.5rem;
     opacity: 0.75;
 
-font-family: -apple-system, "Apple-Pro";
+    font-family: -apple-system, "Apple-Pro";
 
 
 }
->>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
 
 .num {
     cursor: default;
     font-size: 9rem;
 
-<<<<<<< HEAD
     font-family: "Apple-Light";
 
 }
@@ -446,7 +419,8 @@ font-family: -apple-system, "Apple-Pro";
     padding: 13px 10px;
     width: 32%;
 }
-.img svg{
+
+.img svg {
     height: 14px;
     margin-right: 20px;
     cursor: pointer;
@@ -468,8 +442,7 @@ input {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-=======
-font-family: -apple-system, "Apple-Pro";
+    font-family: -apple-system, "Apple-Pro";
 
 }
 
@@ -478,9 +451,8 @@ font-family: -apple-system, "Apple-Pro";
     font-size: 6.5rem;
     opacity: 0.75;
 
-font-family: -apple-system, "Apple-Pro";
+    font-family: -apple-system, "Apple-Pro";
 
->>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
 }
 
 .line1 {
@@ -488,11 +460,8 @@ font-family: -apple-system, "Apple-Pro";
     align-items: center;
     justify-content: center;
     padding-right: 16.1px;
-<<<<<<< HEAD
     gap: 10px;
-=======
     gap: 6px;
->>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
     cursor: pointer;
 
 }
@@ -502,7 +471,6 @@ font-family: -apple-system, "Apple-Pro";
     align-items: flex-end;
     justify-content: center;
 
-<<<<<<< HEAD
 
 }
 
@@ -511,8 +479,7 @@ font-family: -apple-system, "Apple-Pro";
     height: 26px;
     transition: all 300ms ease-in-out;
     transform: rotate(0deg);
-=======
-    
+
 }
 
 .reset-btn i {
@@ -521,7 +488,6 @@ font-family: -apple-system, "Apple-Pro";
     transition: all 500ms ease-in;
     transform: rotate(0deg);
 
->>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
 }
 
 
@@ -530,11 +496,8 @@ font-family: -apple-system, "Apple-Pro";
     color: var(--text-color-reset);
     font-size: 1.6rem;
 
-<<<<<<< HEAD
     font-family: -apple-system, "Apple-Pro";
-=======
-font-family: -apple-system, "Apple-Pro";
->>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
+    font-family: -apple-system, "Apple-Pro";
 
 }
 
@@ -568,11 +531,8 @@ font-family: -apple-system, "Apple-Pro";
     transform: translateX(-50%);
     text-align: center;
 
-<<<<<<< HEAD
     font-family: -apple-system, "Apple-Pro";
-=======
-font-family: -apple-system, "Apple-Pro";
->>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
+    font-family: -apple-system, "Apple-Pro";
 
 }
 
@@ -598,11 +558,8 @@ footer {
 
     line-height: 13px;
 
-<<<<<<< HEAD
     font-family: -apple-system, "Apple-Pro";
-=======
-font-family: -apple-system, "Apple-Pro";
->>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
+    font-family: -apple-system, "Apple-Pro";
 
 }
 
@@ -658,205 +615,192 @@ font-family: -apple-system, "Apple-Pro";
     }
 }
 
-<<<<<<< HEAD
 .about-us,
 .histus {
     display: flex;
     flex-direction: column;
 
-=======
-.about-us {
-    display: flex;
-    flex-direction: column;
-    
->>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
-    top: 9.8%;
-    right: 3.9%;
-
-    transform: translateX(-130%) scale(0.75);
-    transform-origin: top right;
-
-    transition: transform 750ms cubic-bezier(.14, 1.26, .80, 1);
-
-
-    border-radius: 20px;
-
-    position: absolute;
-    height: 80vh;
-    width: 92vw;
-    margin-right: 2px;
-    background: var(--menubar-linear-gradient);
-    color: #fff;
-
-    z-index: 1;
-
-    border: 2px solid var(--menubar-outline);
-
-
 }
+    .about-us {
+        display: flex;
+        flex-direction: column;
 
-.about-us.active {
-    transform: translateX(0) scale(1);
-}
+        top: 9.8%;
+        right: 3.9%;
 
-.about-us-text {
-    display: flex;
-    font-size: 28px;
-    justify-content: center;
-    align-items: center;
-    padding-block: 48px;
+        transform: translateX(-130%) scale(0.75);
+        transform-origin: top right;
 
-
-<<<<<<< HEAD
-    width: 80%;
-=======
-      width: 80%;
->>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
-    margin-inline: auto;
-
-    font-family: -apple-system, "Apple-medium";
-}
-
-<<<<<<< HEAD
+        transition: transform 750ms cubic-bezier(.14, 1.26, .80, 1);
 
 
-.textabout {
-    display: flex;
-    flex-direction: column;
+        border-radius: 20px;
 
-    line-height: 25px;
+        position: absolute;
+        height: 80vh;
+        width: 92vw;
+        margin-right: 2px;
+        background: var(--menubar-linear-gradient);
+        color: #fff;
 
-    font-size: clamp(11.5px, 3.0vw, 19.5px);
-=======
-.textabout {
-    display: flex;
-    flex-direction: column;
-   
-    line-height: 25px;
+        z-index: 1;
 
-    font-size: clamp(11.5px , 3.0vw , 19.5px);
->>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
-
-    width: 80%;
-    margin-inline: auto;
-    text-align: justify;
+        border: 2px solid var(--menubar-outline);
 
 
+    }
 
-}
+    .about-us.active {
+        transform: translateX(0) scale(1);
+    }
 
-
-.about-us-text1 {
-    font-family: -apple-system, "Apple-medium";
-    padding-top: 10px;
-    padding-bottom: 20px;
-
-}
-
-.about-us-text2 {
-    font-family: -apple-system, "Apple-medium";
-
-}
-
-<<<<<<< HEAD
-.his-list {
-    background: var(--historybar-linear);
-    width: 95%;
-    height: 80px;
-    margin: 0 auto;
-    border-radius: 10px;
-    border: 1px solid var(--his-outline);
-}
-
-.his-list {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 25px;
-    
-    font-size: 18px;
-}
-.recit-name , .time , .cnt {
-    font-family: "apple-medium";
-}
-.his-lft {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-}
-
-.his-rght {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.cnt{
-    background-color: var(--cnt);
-    padding: 10px 22px;
-    border-radius: 20px;
-    border: 0.5px solid var(--his-outline);
-}
-.his-delt{
-    font-size: 26px;
-    color: rgb(223, 223, 223);
-}
+    .about-us-text {
+        display: flex;
+        font-size: 28px;
+        justify-content: center;
+        align-items: center;
+        padding-block: 48px;
 
 
-.his-comp{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-   overflow: hidden;
-}
+        width: 80%;
+        width: 80%;
+        margin-inline: auto;
 
-=======
->>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
-.lin1,
-.lin2 {
-    font-family: -apple-system, "Apple-medium";
-}
-
-.lin2 {
-    color: #c2c2c2;
-}
-
-.ournames {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    bottom: 7%;
-}
-
-.brand {
-    font-family: -apple-system, "Apple-medium";
-<<<<<<< HEAD
-    font-size: clamp(11.5px, 2.6vw, 19.5px);
-    ;
-=======
-    font-size: clamp(11.5px , 2.6vw , 19.5px);;
->>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
-
-    position: absolute;
-    right: 8%;
-    bottom: 7%;
-}
+        font-family: -apple-system, "Apple-medium";
+    }
 
 
-<<<<<<< HEAD
-.backarrow {
-=======
-.backarrow{
->>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
-    position: fixed;
 
-    left: 10%;
-    top: 8%;
-}
+    .textabout {
+        display: flex;
+        flex-direction: column;
 
-<<<<<<< HEAD
-.backarrow i {
-=======
-.backarrow i{
->>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
-    font-size: 28px;
-}
+        line-height: 25px;
+
+        font-size: clamp(11.5px, 3.0vw, 19.5px);
+
+        .textabout {
+            display: flex;
+            flex-direction: column;
+
+            line-height: 25px;
+
+            font-size: clamp(11.5px, 3.0vw, 19.5px);
+
+            width: 80%;
+            margin-inline: auto;
+            text-align: justify;
+
+
+
+        }
+
+
+        .about-us-text1 {
+            font-family: -apple-system, "Apple-medium";
+            padding-top: 10px;
+            padding-bottom: 20px;
+
+        }
+
+        .about-us-text2 {
+            font-family: -apple-system, "Apple-medium";
+
+        }
+
+        .his-list {
+            background: var(--historybar-linear);
+            width: 95%;
+            height: 80px;
+            margin: 0 auto;
+            border-radius: 10px;
+            border: 1px solid var(--his-outline);
+        }
+
+        .his-list {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 25px;
+
+            font-size: 18px;
+        }
+
+        .recit-name,
+        .time,
+        .cnt {
+            font-family: "apple-medium";
+        }
+
+        .his-lft {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .his-rght {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .cnt {
+            background-color: var(--cnt);
+            padding: 10px 22px;
+            border-radius: 20px;
+            border: 0.5px solid var(--his-outline);
+        }
+
+        .his-delt {
+            font-size: 26px;
+            color: rgb(223, 223, 223);
+        }
+
+
+        .his-comp {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            overflow: hidden;
+        }
+
+        .lin1,
+        .lin2 {
+            font-family: -apple-system, "Apple-medium";
+        }
+
+        .lin2 {
+            color: #c2c2c2;
+        }
+
+        .ournames {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            bottom: 7%;
+        }
+
+        .brand {
+            font-family: -apple-system, "Apple-medium";
+            font-size: clamp(11.5px, 2.6vw, 19.5px);
+            ;
+            font-size: clamp(11.5px, 2.6vw, 19.5px);
+            ;
+
+            position: absolute;
+            right: 8%;
+            bottom: 7%;
+        }
+
+
+        .backarrow {
+            position: fixed;
+
+            left: 10%;
+            top: 8%;
+        }
+
+        .backarrow i {
+            font-size: 28px;
+        }
+    }
