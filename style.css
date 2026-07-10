@@ -40,12 +40,18 @@
 
 
 :root {
+<<<<<<< HEAD
     --cnt: rgba(81, 81, 81, 0.219);
     --menubar-outline: #7272721d;
     --his-outline: #4f4f4fa5;
     --menubar-linear-gradient: linear-gradient(110deg, #1a1a1a, #101010);
     --historybar-linear: linear-gradient(130deg, #121212, 10%, #161616dd);
     --historybar-linear-gradient: linear-gradient(160deg, #323232, 10%, #101010);
+=======
+    --menubar-outline: #ffffff1d;
+    --menubar-linear-gradient: linear-gradient(110deg, #1a1a1a, #101010);
+     --historybar-linear-gradient: linear-gradient(160deg, #323232 , 10%, #101010);
+>>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
     --back-groundcolor: #121212;
     --text-color: #ffffff;
     --text-color-reset: #ffffff;
@@ -84,7 +90,10 @@
 html,
 body {
     height: 100%;
+<<<<<<< HEAD
     width: 100%;
+=======
+>>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
     touch-action: manipulation;
     /* tells browser not to zoom on double tap */
     -webkit-font-smoothing: antialiased;
@@ -292,7 +301,11 @@ nav {
     color: var(--text-color);
     font-size: 25px;
 
+<<<<<<< HEAD
     font-family: -apple-system, "Apple-Pro";
+=======
+font-family: -apple-system, "Apple-Pro";
+>>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
 
 }
 
@@ -316,7 +329,11 @@ nav {
         font-size: 25px;
         text-decoration: none;
 
+<<<<<<< HEAD
         font-family: -apple-system, "Apple-Pro";
+=======
+font-family: -apple-system, "Apple-Pro";
+>>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
 
     }
 }
@@ -340,13 +357,18 @@ nav {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+<<<<<<< HEAD
     background-color: transparent;
+=======
+    background-color:transparent;
+>>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
     height: calc(100vh - 147px);
     width: 100%;
     margin: 0 auto;
     min-height: 0;
     overflow: hidden;
 
+<<<<<<< HEAD
 
 }
 
@@ -357,6 +379,16 @@ nav {
 
 .main1 {
 
+=======
+    
+}
+#maain{
+    background-color:transparent;
+
+}
+.main1 {
+   
+>>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
     justify-content: center;
     gap: 13px;
     background-color: transparent;
@@ -381,12 +413,25 @@ nav {
 
 }
 
+<<<<<<< HEAD
 
+=======
+.plus {
+    cursor: pointer;
+    font-size: 6.5rem;
+    opacity: 0.75;
+
+font-family: -apple-system, "Apple-Pro";
+
+
+}
+>>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
 
 .num {
     cursor: default;
     font-size: 9rem;
 
+<<<<<<< HEAD
     font-family: "Apple-Light";
 
 }
@@ -423,6 +468,19 @@ input {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+=======
+font-family: -apple-system, "Apple-Pro";
+
+}
+
+.minus {
+    cursor: pointer;
+    font-size: 6.5rem;
+    opacity: 0.75;
+
+font-family: -apple-system, "Apple-Pro";
+
+>>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
 }
 
 .line1 {
@@ -430,7 +488,11 @@ input {
     align-items: center;
     justify-content: center;
     padding-right: 16.1px;
+<<<<<<< HEAD
     gap: 10px;
+=======
+    gap: 6px;
+>>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
     cursor: pointer;
 
 }
@@ -440,6 +502,7 @@ input {
     align-items: flex-end;
     justify-content: center;
 
+<<<<<<< HEAD
 
 }
 
@@ -448,6 +511,17 @@ input {
     height: 26px;
     transition: all 300ms ease-in-out;
     transform: rotate(0deg);
+=======
+    
+}
+
+.reset-btn i {
+    color: #fff;
+    font-size: 20px;
+    transition: all 500ms ease-in;
+    transform: rotate(0deg);
+
+>>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
 }
 
 
@@ -456,7 +530,11 @@ input {
     color: var(--text-color-reset);
     font-size: 1.6rem;
 
+<<<<<<< HEAD
     font-family: -apple-system, "Apple-Pro";
+=======
+font-family: -apple-system, "Apple-Pro";
+>>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
 
 }
 
@@ -490,7 +568,11 @@ input {
     transform: translateX(-50%);
     text-align: center;
 
+<<<<<<< HEAD
     font-family: -apple-system, "Apple-Pro";
+=======
+font-family: -apple-system, "Apple-Pro";
+>>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
 
 }
 
@@ -516,7 +598,11 @@ footer {
 
     line-height: 13px;
 
+<<<<<<< HEAD
     font-family: -apple-system, "Apple-Pro";
+=======
+font-family: -apple-system, "Apple-Pro";
+>>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
 
 }
 
@@ -572,11 +658,18 @@ footer {
     }
 }
 
+<<<<<<< HEAD
 .about-us,
 .histus {
     display: flex;
     flex-direction: column;
 
+=======
+.about-us {
+    display: flex;
+    flex-direction: column;
+    
+>>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
     top: 9.8%;
     right: 3.9%;
 
@@ -614,12 +707,17 @@ footer {
     padding-block: 48px;
 
 
+<<<<<<< HEAD
     width: 80%;
+=======
+      width: 80%;
+>>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
     margin-inline: auto;
 
     font-family: -apple-system, "Apple-medium";
 }
 
+<<<<<<< HEAD
 
 
 .textabout {
@@ -629,6 +727,15 @@ footer {
     line-height: 25px;
 
     font-size: clamp(11.5px, 3.0vw, 19.5px);
+=======
+.textabout {
+    display: flex;
+    flex-direction: column;
+   
+    line-height: 25px;
+
+    font-size: clamp(11.5px , 3.0vw , 19.5px);
+>>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
 
     width: 80%;
     margin-inline: auto;
@@ -651,6 +758,7 @@ footer {
 
 }
 
+<<<<<<< HEAD
 .his-list {
     background: var(--historybar-linear);
     width: 95%;
@@ -701,6 +809,8 @@ footer {
    overflow: hidden;
 }
 
+=======
+>>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
 .lin1,
 .lin2 {
     font-family: -apple-system, "Apple-medium";
@@ -719,8 +829,12 @@ footer {
 
 .brand {
     font-family: -apple-system, "Apple-medium";
+<<<<<<< HEAD
     font-size: clamp(11.5px, 2.6vw, 19.5px);
     ;
+=======
+    font-size: clamp(11.5px , 2.6vw , 19.5px);;
+>>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
 
     position: absolute;
     right: 8%;
@@ -728,13 +842,21 @@ footer {
 }
 
 
+<<<<<<< HEAD
 .backarrow {
+=======
+.backarrow{
+>>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
     position: fixed;
 
     left: 10%;
     top: 8%;
 }
 
+<<<<<<< HEAD
 .backarrow i {
+=======
+.backarrow i{
+>>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
     font-size: 28px;
 }

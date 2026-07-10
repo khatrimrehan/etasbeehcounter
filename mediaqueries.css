@@ -111,9 +111,12 @@
 .backarrow{
     top: 4.5%;
 }
+<<<<<<< HEAD
 .recit{
     width: 60%;
 }
+=======
+>>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
 
 }
 
@@ -133,9 +136,12 @@
         height: 75vh;
     }
 
+<<<<<<< HEAD
 .recit{
     width: 65%;
 }
+=======
+>>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
 
 }
 
@@ -160,9 +166,12 @@
 
     }
 
+<<<<<<< HEAD
     .recit{
     width: 75%;
 }
+=======
+>>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
 
 
 
@@ -226,9 +235,14 @@
 @media (max-width: 416px) {
 
 
+<<<<<<< HEAD
     .recit{
     width: 85%;
 }
+=======
+    
+
+>>>>>>> 89d2cf38dc1d5cd2b25cf8fff1ff50b6ea6e2757
 
     .textabout {
         line-height: 20px;
