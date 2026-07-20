@@ -83,8 +83,9 @@
 
 html,
 body {
-    height: 100%;
+    height: 100vh;
     width: 100%;
+    min-height: 100dvh;
     touch-action: manipulation;
     /* tells browser not to zoom on double tap */
     -webkit-font-smoothing: antialiased;
@@ -123,7 +124,7 @@ body,
 
 
 body {
-    min-height: 100dvh;
+    
     /* visible viewport height */
     display: flex;
     overflow-x: hidden;
@@ -131,7 +132,7 @@ body {
     background-color: var(--back-groundcolor);
     overflow-y: auto;
     overscroll-behavior-y: auto;
-    width: 100vw;
+   
 }
 
 nav {
