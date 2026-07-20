@@ -21,18 +21,18 @@ const rName = document.querySelector(".recit-name")
 const inptName = document.querySelector("input")
 const rstLine = document.querySelector(".line1")
 const del = document.querySelector("his-del")
-const cliCk = document.querySelector(".img")
+const cliCk = document.querySelector(".recit")
 
 
 
-cliCk.addEventListener("click", () => {
-   const currentTime = new Date().toLocaleTimeString([], {
+cliCk.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const currentTime = new Date().toLocaleTimeString([], {
     hour: '2-digit',
     minute: '2-digit'
   });
 
   let name = inptName.value
-  console.log(name);
 
   const uniqueId = `cnt-${Date.now()}`;
   activeHistoryId = uniqueId;
@@ -63,6 +63,8 @@ cliCk.addEventListener("click", () => {
         </div>
 
       </div>`
+  
+  inptName.blur()
 
 })
 
