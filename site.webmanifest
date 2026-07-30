@@ -1,0 +1,11 @@
+{
+  "name": "EtasbeehCounter",
+  "short_name": "E-Counter",
+  "description": "",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#121212",
+  "theme_color": "#121212"
+}
